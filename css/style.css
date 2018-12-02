@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "OCR A Std";
+    src: url(OCRAStd/OCRAStd.otf) format('.otf');
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url(FuturaStd/FuturaStd-Book.otf) format('.otf');
+}
+
+nav {
+    font-family: "OCR A Std", "Helvetica", sans-serif;
+}
+
+.logo {
+    font-size: 40pt;
+    font-family: "OCR A Std", "Helvetica", sans-serif;
+}
