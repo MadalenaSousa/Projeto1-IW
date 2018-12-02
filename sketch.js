@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-    background(23, 3, 45);
+    canvas.position(0,window.scrollY);
 
     esticar();
 }
