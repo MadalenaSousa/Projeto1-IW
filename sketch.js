@@ -1,6 +1,7 @@
 let r, y, b;
 let nTriRed, nTriYellow, nTriBlue, nTriAll;
 let rand;
+var tabs = selectAll('.col-1');
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
@@ -15,7 +16,9 @@ function setup() {
     y = 700;
     b = 200;
 
-    rand = 0;
+    rand = 1;
+
+    console.log(tabs);
 }
 
 function draw() {
