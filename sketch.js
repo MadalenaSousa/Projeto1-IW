@@ -1,7 +1,7 @@
 let r, y, b;
-let nTriRed, nTriYellow, nTriBlue, nTriAll;
+let nTriAll;
 let rand;
-var tabs = selectAll('.col-1');
+let logo;
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
@@ -16,9 +16,11 @@ function setup() {
     y = 700;
     b = 200;
 
-    rand = 1;
+    nTriAll = 0;
+    logo = select('.logo');
+    console.log(logo);
 
-    console.log(tabs);
+    rand = 1;
 }
 
 function draw() {
@@ -26,14 +28,15 @@ function draw() {
     canvas.position(0,window.scrollY);
 
     if (rand === 0) {
-        triangulosEncolhem();
+        logo.mouseOver(triangulosEncolhem);
     } else if (rand === 1) {
-        esticar();
+        logo.mouseOver(esticar);
     }
 
 }
 
 function esticar() {
+    console.log("entrou");
     noFill();
     strokeWeight(10);
 
@@ -92,41 +95,12 @@ function esticar() {
 }
 
 function triangulosEncolhem() {
+    console.log("entrou");
     noFill();
     strokeWeight(8);
 
-    if ((mouseX > 50 && mouseX < 450) && (mouseY > 550 && mouseY < 550 + 180)) {
-        if (nTriRed < 5) {
-            nTriRed++;
-        }
-    } else {
-        if (nTriRed > 0) {
-            nTriRed--;
-        }
-    }
-
-    if ((mouseX > 450 && mouseX < 750) && (mouseY > 450 && mouseY < 450 + 150)) {
-        if (nTriBlue < 5) {
-            nTriBlue++;
-        }
-    } else {
-        if (nTriBlue > 0) {
-            nTriBlue--;
-        }
-    }
-
-    if ((mouseX > 350 && mouseX < 700) && (mouseY > 800 && mouseY < 800 + 150)) {
-        if (nTriYellow < 5) {
-            nTriYellow++;
-        }
-    } else {
-        if (nTriYellow > 0) {
-            nTriYellow--;
-        }
-    }
-
-    if ((mouseX > 50 && mouseX < 600) && (mouseY > 50 && mouseY < 350)) {
-        if (nTriAll < 5) {
+    if ((mouseX > 0 && mouseX < 600) && (mouseY > 0 && mouseY < 600)) {
+        if (nTriAll < 6) {
             nTriAll++;
         }
     } else {
@@ -135,27 +109,12 @@ function triangulosEncolhem() {
         }
     }
 
-    for (let i=0; i<nTriRed; i++) {
-        stroke(255, 0, 0);
-        triangle((i*30), ((i*2+1)*30), (i*30), 700 - ((i*2+1)*30), 300 - (i*30), 350);
-    }
-
-    for (let i=0; i<nTriYellow; i++) {
-        stroke(255, 255, 0);
-        triangle(50 + ((i*2+1)*30), 1000 - (i*30), 400, 200 + ((i*3+1)*30), 700 - ((i*2+1)*30), 1000 - (i*30));
-    }
-
-    for (let i=0; i<nTriBlue; i++) {
-        stroke(0, 0, 255);
-        triangle(400 + (i*60), (i*40), 800 - (i*30), (i*40), 800 - (i*25), 900 - ((i*4+1)*30));
-    }
-
     for (let i=0; i<nTriAll; i++) {
         stroke(255, 0, 0);
-        triangle((i*30), ((i*2+1)*30), (i*30), 700 - ((i*2+1)*30), 300 - (i*30), 350);
+        triangle((i*30), ((i*2+1)*30), (i*30), windowHeight - ((i*2+1)*50), (windowWidth/4) - (i*50), 350);
         stroke(255, 255, 0);
-        triangle(50 + ((i*2+1)*30), 1000 - (i*30), 400, 200 + ((i*3+1)*30), 700 - ((i*2+1)*30), 1000 - (i*30));
+        triangle(windowWidth/4 + ((i*2+1)*40), windowHeight - (i*40), windowWidth/2, 200 + ((i*3+1)*30), ((windowWidth/4)*3) - ((i*2+1)*40), windowHeight - (i*40));
         stroke(0, 0, 255);
-        triangle(400 + (i*60), (i*40), 800 - (i*30), (i*40), 800 - (i*25), 900 - ((i*4+1)*30));
+        triangle(windowWidth/2 + (i*120), (i*40), windowWidth - (i*45), (i*40), windowWidth - (i*40), 900 - ((i*4+1)*30));
     }
 }
