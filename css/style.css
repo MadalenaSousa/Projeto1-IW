@@ -17,6 +17,11 @@ a {
     text-decoration: none;
 }
 
+nav {
+    position: relative;
+    top: 50px;
+}
+
 nav div {
     box-sizing: border-box;
     float: left;
@@ -27,7 +32,18 @@ nav div {
     font-size: 20pt;
 }
 
+nav div:active {
+    font-size: 25pt;
+}
+
+nav div:hover {
+    color: red;
+}
+
 .logo {
+    position: relative;
+    top: 100px;
+    left: 50px;
     font-size: 100pt;
     font-family: "OCR A Std", "Helvetica", sans-serif;
 }
