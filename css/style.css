@@ -42,7 +42,6 @@ nav [class*='col-']:active {
     transform: rotate(90deg);
     left: 0;
     top: 0;
-    height: 1em;
 }
 
 .logo-arte {

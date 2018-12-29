@@ -1,7 +1,8 @@
 let r, y, b;
 let nTriAll;
 let rand;
-let logo;
+let nav;
+let emCima;
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
@@ -17,20 +18,42 @@ function setup() {
     b = 200;
 
     nTriAll = 0;
-    logo = select('.logo');
-    console.log(logo);
+    nav = document.querySelectorAll("nav a");
+    console.log(nav);
 
-    rand = 0;
+    rand = 1;
 }
 
 function draw() {
     canvas.position(0,window.scrollY);
 
+    for(let i=0; i<nav.length; i++) {
+        nav[i].addEventListener("mouseenter", function () {
+            emCima = true;
+        });
+        nav[i].addEventListener("mouseenter", function () {
+            emCima = true;
+        });
+    }
+
+    if(emCima === true) {
+        for(let i=0; i<nav.length; i++) {
+            if(rand === 0) {
+                nav[i].addEventListener("mouseenter", triangulosEncolhem);
+            } else if(rand === 1){
+                nav[i].addEventListener("mouseenter", triangulosEncolhem);
+            }
+        }
+    }
+
     if (rand === 0) {
-        logo.mouseOver(triangulosEncolhem);
-        logo
+        for(let i=0; i<nav.length; i++) {
+            nav[i].addEventListener("mouseenter", triangulosEncolhem);
+        }
     } else if (rand === 1) {
-        esticar();
+        for(let i=0; i<nav.length; i++) {
+            nav[i].addEventListener("mousemove", esticar);
+        }
     }
 }
 
@@ -60,10 +83,6 @@ function esticar() {
 
     stroke(0, 0, 255);
     triangle(windowWidth/2, 0, windowWidth, 0, windowWidth, b);
-}
-
-function acao() {
-
 }
 
 function triangulosEncolhem() {
