@@ -21,7 +21,7 @@ function setup() {
     nav = document.querySelectorAll("nav a");
     console.log(nav);
 
-    rand = 0;
+    rand = 1;
 }
 
 function draw() {
@@ -88,7 +88,7 @@ function esticar() {
 
 function triangulosEncolhem() {
     console.log("entrou triEncolhem");
-    background(255);
+    //background(255);
     noFill();
     strokeWeight(8);
 
