@@ -30,7 +30,6 @@ nav [class*='col-']:active {
 }
 
 [class*='logo-'] {
-    font-size: 150pt;
     font-family: 'Jockey One', sans-serif;
     display: inline-block;
     position: absolute;
@@ -39,20 +38,31 @@ nav [class*='col-']:active {
 }
 
 .logo-design {
-    transform: rotate(90deg);
-    left: 0;
-    top: 0;
-}
-
-.logo-arte {
     left: 0;
     bottom: 0;
+}
+
+.logo-design img {
+    width: 120pt;
 }
 
 .logo-tecnologia {
-    transform: rotate(-90deg);
-    bottom: 0;
     right: 0;
+    bottom: 0;
+}
+
+.logo-tecnologia img {
+    width: auto;
+    height: 120pt;
+}
+
+.logo-arte {
+    top: 0;
+    right: 0;
+}
+
+.logo-arte img {
+    width: 120pt;
 }
 
 /* Largura das Células*/
