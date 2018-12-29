@@ -48,7 +48,7 @@ function draw() {
 
     if (rand === 0) {
         for(let i=0; i<nav.length; i++) {
-            nav[i].addEventListener("mouseenter", triangulosEncolhem);
+            nav[i].addEventListener("mousemove", triangulosEncolhem);
         }
     } else if (rand === 1) {
         for(let i=0; i<nav.length; i++) {
@@ -59,8 +59,9 @@ function draw() {
 
 function esticar() {
     console.log("entrou Esticar");
+    background(255);
     noFill();
-    strokeWeight(10);
+    strokeWeight(18);
 
     if (r < 350) {
         r = r + 5;
@@ -87,6 +88,7 @@ function esticar() {
 
 function triangulosEncolhem() {
     console.log("entrou triEncolhem");
+    //background(255);
     noFill();
     strokeWeight(8);
 
