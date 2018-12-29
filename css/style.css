@@ -15,14 +15,18 @@ a {
 [class*='col-'] {
     float: left;
     width: calc(100% / 12);
-    text-align: center;
-    font-size: 20pt;
+    text-align: left;
+    font-size: 14pt;
+    font-family: "Roboto Mono", sans-serif;
+    display: inline-block;
 }
 
 nav [class*='col-'] {
     font-family: 'Jockey One', sans-serif;
     height: 100px;
     line-height: 100px;
+    font-size: 20pt;
+    text-align: center;
 }
 
 nav [class*='col-']:active {
@@ -37,32 +41,23 @@ nav [class*='col-']:active {
     margin: 0;
 }
 
-.logo-design {
+.logo-esquerda {
+    width: 120pt;
     left: 0;
     bottom: 0;
 }
 
-.logo-design object {
-    width: 120pt;
-}
-
-.logo-tecnologia {
+.logo-fundo {
+    width: auto;
+    height: 120pt;
     right: 0;
     bottom: 0;
 }
 
-.logo-tecnologia object {
-    width: auto;
-    height: 120pt;
-}
-
-.logo-arte {
+.logo-direita {
+    width: 120pt;
     top: 0;
     right: 0;
-}
-
-.logo-arte object {
-    width: 120pt;
 }
 
 /* Largura das Células*/
