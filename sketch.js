@@ -79,10 +79,10 @@ function esticar() {
     stroke(255, 0, 0);
     triangle(0, 0, 0, 700, r, 350);
 
-    stroke(255, 255, 0);
+    stroke(0, 0, 255);
     triangle(windowWidth/4, windowHeight, windowWidth/2, y, (windowWidth/4)*3, windowHeight);
 
-    stroke(0, 0, 255);
+    stroke(255, 255, 0);
     triangle(windowWidth/2, 0, windowWidth, 0, windowWidth, b);
 }
 

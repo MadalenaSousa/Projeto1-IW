@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+[class*='grid'] * {
+    box-sizing: border-box;
+}
+
 .row {
     content: ' ';
     clear: both;
