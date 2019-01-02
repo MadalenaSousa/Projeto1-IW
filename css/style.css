@@ -1,3 +1,5 @@
+/*GERAL*/
+
 ul {
     list-style-type: none;
 }
@@ -7,19 +9,78 @@ a {
     text-decoration: none;
 }
 
-.row {
-    content: ' ';
-    clear: both;
+.jockey {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 48pt;
+}
+
+.roboto {
+    font-family: "Roboto Mono", monospace;
 }
 
 [class*='col-'] {
-    float: left;
-    width: calc(100% / 12);
     text-align: left;
     font-size: 14pt;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: "Roboto Mono", monospace;
     display: inline-block;
+    position: relative;
 }
+
+.row {
+    margin: 0;
+}
+
+[class*='grid-'] .row {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*TÍTULOS*/
+
+.letra-esquerda {
+    width: 300px;
+    left: 0;
+    top: 100pt
+}
+
+/*HOMEPAGEG*/
+
+[class*='logo-'] {
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+[class*='letra-'] {
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+.letra-logo-esquerda {
+    width: 120pt;
+    left: 0;
+    bottom: 0;
+}
+
+.letra-logo-fundo {
+    width: auto;
+    height: 120pt;
+    right: 0;
+    bottom: 0;
+}
+
+.letra-logo-direita {
+    width: 120pt;
+    top: 0;
+    right: 0;
+}
+
+/*NAVEGAÇÃO*/
 
 nav [class*='col-'] {
     font-family: 'Jockey One', sans-serif;
@@ -29,70 +90,35 @@ nav [class*='col-'] {
     text-align: center;
 }
 
-nav [class*='col-']:active {
-    font-size: 18pt;
+/*SOBRE*/
+
+.grid-sobre .col-6 {
+    top: 100px;
 }
 
-[class*='logo-'] {
-    font-family: 'Jockey One', sans-serif;
-    display: inline-block;
+/*INTERVENIENTES*/
+
+.nome {
     position: absolute;
-    padding: 0;
-    margin: 0;
-}
-
-.logo-esquerda {
-    width: 120pt;
+    top: -0.8em;
     left: 0;
-    bottom: 0;
 }
 
-.logo-fundo {
-    width: auto;
-    height: 120pt;
-    right: 0;
-    bottom: 0;
-}
-
-.logo-direita {
-    width: 120pt;
-    top: 0;
+.apelido {
+    position: absolute;
+    bottom:-0.5em;
     right: 0;
 }
 
-/* Largura das Células*/
+.pic {
+    text-align: center;
+}
 
-.col-2 {
-    width: calc(calc(100% / 12) * 2);
+.grid-intervenientes .jockey {
+    font-size: 100pt;
 }
-.col-3 {
-    width: calc(calc(100% / 12) * 3);
-}
-.col-4 {
-    width: calc(calc(100% / 12) * 4);
-}
-.col-5 {
-    width: calc(calc(100% / 12) * 5);
-}
-.col-6 {
-    width: calc(calc(100% / 12) * 6);
-}
-.col-7 {
-    width: calc(calc(100% / 12) * 7);
-}
-.col-8 {
-    width: calc(calc(100% / 12) * 8);
-}
-.col-9 {
-    width: calc(calc(100% / 12) * 9);
-}
-.col-10 {
-    width: calc(calc(100% / 12) * 10);
-}
-.col-11 {
-    width: calc(calc(100% / 12) * 11);
-}
-.col-12 {
-    width: calc(calc(100% / 12) * 12);
-}
+
+/*LOCAIS*/
+
+/*CONTACTOS*/
 
