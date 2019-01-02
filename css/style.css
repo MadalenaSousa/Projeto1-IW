@@ -1,3 +1,5 @@
+/*GERAL*/
+
 ul {
     list-style-type: none;
 }
@@ -7,38 +9,31 @@ a {
     text-decoration: none;
 }
 
-[class*='grid'] * {
-    box-sizing: border-box;
+.jockey {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 48pt;
+    position: relative;
 }
 
-.row {
-    content: ' ';
-    clear: both;
+.roboto {
+    font-family: "Roboto Mono", monospace;
 }
 
 [class*='col-'] {
-    float: left;
-    width: calc(100% / 12);
     text-align: left;
     font-size: 14pt;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: "Roboto Mono", monospace;
     display: inline-block;
 }
 
-nav [class*='col-'] {
-    font-family: 'Jockey One', sans-serif;
-    height: 100px;
-    line-height: 100px;
-    font-size: 20pt;
-    text-align: center;
-}
-
-nav [class*='col-']:active {
-    font-size: 18pt;
-}
-
 [class*='logo-'] {
-    font-family: 'Jockey One', sans-serif;
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+[class*='letra-'] {
     display: inline-block;
     position: absolute;
     padding: 0;
@@ -64,39 +59,32 @@ nav [class*='col-']:active {
     right: 0;
 }
 
-/* Largura das Células*/
+.letra-esquerda {
+    width: 300px;
+    left: 0;
+    top: 100pt
+}
 
-.col-2 {
-    width: calc(calc(100% / 12) * 2);
+/*NAVEGAÇÃO*/
+
+nav [class*='col-'] {
+    font-family: 'Jockey One', sans-serif;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20pt;
+    text-align: center;
 }
-.col-3 {
-    width: calc(calc(100% / 12) * 3);
+
+/*SOBRE*/
+
+.grid-sobre .row {
+    position: relative;
+    top: 100px;
 }
-.col-4 {
-    width: calc(calc(100% / 12) * 4);
-}
-.col-5 {
-    width: calc(calc(100% / 12) * 5);
-}
-.col-6 {
-    width: calc(calc(100% / 12) * 6);
-}
-.col-7 {
-    width: calc(calc(100% / 12) * 7);
-}
-.col-8 {
-    width: calc(calc(100% / 12) * 8);
-}
-.col-9 {
-    width: calc(calc(100% / 12) * 9);
-}
-.col-10 {
-    width: calc(calc(100% / 12) * 10);
-}
-.col-11 {
-    width: calc(calc(100% / 12) * 11);
-}
-.col-12 {
-    width: calc(calc(100% / 12) * 12);
-}
+
+/*INTERVENIENTES*/
+
+/*LOCAIS*/
+
+/*CONTACTOS*/
 
