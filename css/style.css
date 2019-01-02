@@ -45,7 +45,7 @@ a {
     top: 100pt
 }
 
-/*HOMEPAGEG*/
+/*HOMEPAGE*/
 
 [class*='logo-'] {
     display: inline-block;
@@ -78,6 +78,20 @@ a {
     width: 120pt;
     top: 0;
     right: 0;
+}
+
+#dei{
+    background-color: transparent;
+    width: 300pt;
+    height: 120pt;
+    border: 0;
+}
+
+#darq, #lab{
+    background-color: transparent;
+    height: 300pt;
+    width: 120pt;
+    border: 0;
 }
 
 /*NAVEGAÇÃO*/
