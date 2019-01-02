@@ -80,10 +80,10 @@ function esticar() {
     triangle(0, 0, 0, 700, r, 350);
 
     stroke(0, 0, 255);
-    triangle(windowWidth/4, windowHeight, windowWidth/2, y, (windowWidth/4)*3, windowHeight);
+    triangle(width/4, height, width/2, y, (width/4)*3, height);
 
     stroke(255, 255, 0);
-    triangle(windowWidth/2, 0, windowWidth, 0, windowWidth, b);
+    triangle(width/2, 0, width, 0, width, b);
 }
 
 function triangulosEncolhem() {

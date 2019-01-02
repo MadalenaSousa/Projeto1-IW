@@ -12,7 +12,6 @@ a {
 .jockey {
     font-family: 'Jockey One', sans-serif;
     font-size: 48pt;
-    position: relative;
 }
 
 .roboto {
@@ -24,7 +23,29 @@ a {
     font-size: 14pt;
     font-family: "Roboto Mono", monospace;
     display: inline-block;
+    position: relative;
 }
+
+.row {
+    margin: 0;
+}
+
+[class*='grid-'] .row {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*TÍTULOS*/
+
+.letra-esquerda {
+    width: 300px;
+    left: 0;
+    top: 100pt
+}
+
+/*HOMEPAGEG*/
 
 [class*='logo-'] {
     display: inline-block;
@@ -40,29 +61,23 @@ a {
     margin: 0;
 }
 
-.logo-esquerda {
+.letra-logo-esquerda {
     width: 120pt;
     left: 0;
     bottom: 0;
 }
 
-.logo-fundo {
+.letra-logo-fundo {
     width: auto;
     height: 120pt;
     right: 0;
     bottom: 0;
 }
 
-.logo-direita {
+.letra-logo-direita {
     width: 120pt;
     top: 0;
     right: 0;
-}
-
-.letra-esquerda {
-    width: 300px;
-    left: 0;
-    top: 100pt
 }
 
 /*NAVEGAÇÃO*/
@@ -77,12 +92,31 @@ nav [class*='col-'] {
 
 /*SOBRE*/
 
-.grid-sobre .row {
-    position: relative;
+.grid-sobre .col-6 {
     top: 100px;
 }
 
 /*INTERVENIENTES*/
+
+.nome {
+    position: absolute;
+    top: -0.8em;
+    left: 0;
+}
+
+.apelido {
+    position: absolute;
+    bottom:-0.5em;
+    right: 0;
+}
+
+.pic {
+    text-align: center;
+}
+
+.grid-intervenientes .jockey {
+    font-size: 100pt;
+}
 
 /*LOCAIS*/
 
