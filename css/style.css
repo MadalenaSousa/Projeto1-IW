@@ -78,6 +78,13 @@ a {
     width: 120pt;
     top: 0;
     right: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.letra-logo-direita:hover {
+    background-color: transparent;
+    cursor: pointer;
 }
 
 /*NAVEGAÇÃO*/
