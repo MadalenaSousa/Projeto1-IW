@@ -80,20 +80,6 @@ a {
     right: 0;
 }
 
-#dei{
-    background-color: transparent;
-    width: 300pt;
-    height: 120pt;
-    border: 0;
-}
-
-#darq, #lab{
-    background-color: transparent;
-    height: 300pt;
-    width: 120pt;
-    border: 0;
-}
-
 /*NAVEGAÇÃO*/
 
 nav [class*='col-'] {
@@ -102,6 +88,10 @@ nav [class*='col-'] {
     line-height: 100px;
     font-size: 20pt;
     text-align: center;
+}
+
+nav a:hover {
+    color: blue;
 }
 
 /*SOBRE*/
@@ -133,6 +123,55 @@ nav [class*='col-'] {
 }
 
 /*LOCAIS*/
+
+#dei{
+    background-color: transparent;
+    width: 300pt;
+    height: 120pt;
+    border: 0;
+    box-shadow: none;
+}
+
+#darq, #lab{
+    background-color: transparent;
+    height: 300pt;
+    width: 120pt;
+    border: 0;
+    box-shadow: none;
+}
+
+.modal-title {
+    font-family: "Jockey One", sans-serif;
+    font-size: 36pt;
+}
+
+.modal-body img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.modal-content {
+    font-family: "Roboto Mono", monospace;
+    border-radius: 0;
+}
+
+.btn {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    box-shadow: none;
+    border: 0;
+}
+
+.btn a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+}
 
 /*CONTACTOS*/
 
