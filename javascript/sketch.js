@@ -11,55 +11,36 @@ function windowResized() {
 function setup() {
     canvas = createCanvas(windowWidth, windowHeight);
     canvas.position(0, 0);
-    canvas.style('z-index', '-1');
+    canvas.style('z-index', '-5');
+
+    nav = document.querySelectorAll("nav a");
 
     r = 50;
     y = 700;
     b = 200;
 
     nTriAll = 0;
-    nav = document.querySelectorAll("nav a");
-    console.log(nav);
 
-    rand = 1;
+    rand = 3;
 }
 
 function draw() {
     canvas.position(0,window.scrollY);
 
     for(let i=0; i<nav.length; i++) {
-        nav[i].addEventListener("mouseenter", function () {
-            emCima = true;
-        });
-        nav[i].addEventListener("mouseenter", function () {
-            emCima = true;
-        });
-    }
-
-    if(emCima === true) {
-        for(let i=0; i<nav.length; i++) {
-            if(rand === 0) {
-                nav[i].addEventListener("mouseenter", triangulosEncolhem);
-            } else if(rand === 1){
-                nav[i].addEventListener("mouseenter", triangulosEncolhem);
-            }
-        }
-    }
-
-    if (rand === 0) {
-        for(let i=0; i<nav.length; i++) {
+        if(rand === 0) {
             nav[i].addEventListener("mousemove", triangulosEncolhem);
-        }
-    } else if (rand === 1) {
-        for(let i=0; i<nav.length; i++) {
+        } else if(rand === 1){
             nav[i].addEventListener("mousemove", esticar);
+        } else if(rand === 3){
+            nav[i].addEventListener("mouseenter", rodar);
         }
     }
 }
 
 function esticar() {
     console.log("entrou Esticar");
-    background(255);
+
     noFill();
     strokeWeight(18);
 
@@ -88,9 +69,9 @@ function esticar() {
 
 function triangulosEncolhem() {
     console.log("entrou triEncolhem");
-    //background(255);
+
     noFill();
-    strokeWeight(8);
+    strokeWeight(12);
 
     if (nTriAll < 5) {
         nTriAll++;
@@ -108,5 +89,21 @@ function triangulosEncolhem() {
         stroke(0, 0, 255);
         triangle(windowWidth/2 + (i*120), (i*40), windowWidth - (i*45), (i*40), windowWidth - (i*40), 900 - ((i*4+1)*30));
     }
+}
+
+function rodar() {
+    console.log("entrou rodar");
+
+    noFill();
+    strokeWeight(18);
+
+    stroke(255, 0, 0);
+    triangle(0, 0, 0, 700, 500, 350);
+
+    stroke(0, 0, 255);
+    triangle(width/4, height, width/2, 300, (width/4)*3, height);
+
+    stroke(255, 255, 0);
+    triangle(width/2, 0, width, 0, width, 500);
 }
 

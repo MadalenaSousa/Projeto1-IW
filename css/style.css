@@ -1,4 +1,8 @@
 /*GERAL*/
+html * {
+    margin: 0;
+    padding: 0;
+}
 
 ul {
     list-style-type: none;
@@ -24,6 +28,7 @@ a {
     font-family: "Roboto Mono", monospace;
     display: inline-block;
     position: relative;
+    max-width: 100%;
 }
 
 .row {
@@ -35,6 +40,14 @@ a {
     margin-bottom: 200px;
     margin-right: 0;
     margin-left: 0;
+}
+
+.redesSociais img {
+    width: 20%;
+}
+
+.dropdown-toggle::after {
+    display: none;
 }
 
 /*TÍTULOS*/
@@ -62,36 +75,30 @@ a {
 }
 
 .letra-logo-esquerda {
-    width: 120pt;
+    width: 8vw;
     left: 0;
     bottom: 0;
 }
 
 .letra-logo-fundo {
-    width: auto;
-    height: 120pt;
+    height: 8vw;
     right: 0;
     bottom: 0;
 }
 
 .letra-logo-direita {
-    width: 120pt;
+    width: 8vw;
     top: 0;
     right: 0;
 }
 
 /*NAVEGAÇÃO*/
 
-nav [class*='col-'] {
+.navbar-nav {
     font-family: 'Jockey One', sans-serif;
-    height: 100px;
-    line-height: 100px;
     font-size: 20pt;
-    text-align: center;
-}
-
-nav a:hover {
-    color: blue;
+    margin-left: 50px;
+    color: black;
 }
 
 /*SOBRE*/
@@ -173,5 +180,71 @@ nav a:hover {
     color: black;
 }
 
+.btn:active {
+    border: 0;
+    box-shadow: none;
+}
+
 /*CONTACTOS*/
+
+@media only screen and (max-width: 600px) {
+
+    /*HOMEPAGE*/
+
+    /*Design*/
+    .letra-logo-esquerda {
+        width: 16vw;
+        left: 0;
+        bottom: 0;
+    }
+
+    /*Tecnologia*/
+    .letra-logo-fundo {
+        width: auto;
+        height: 16vw;
+        transform: rotate(-90deg);
+        right: 0;
+        top: 0;
+    }
+
+    /*Arte*/
+    .letra-logo-direita {
+        width: 16vw;
+        transform: rotate(90deg);
+        right: 0;
+        bottom: 0;
+    }
+
+    .navbar-toggler {
+        box-shadow: none;
+        border: 0;
+    }
+
+    .nav-item img {
+        width: 8%;
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+    .letra-logo-esquerda {
+        width: 12vw;
+        left: 0;
+        bottom: 0;
+    }
+
+    .letra-logo-fundo {
+        height: 12vw;
+        right: 0;
+        bottom: 0;
+    }
+
+    .letra-logo-direita {
+        width: 12vw;
+        top: 0;
+        right: 0;
+    }
+
+}
 

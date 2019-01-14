@@ -8,27 +8,19 @@
     <script src="libraries/p5.min.js"></script>
     <script src="libraries/addons/p5.dom.min.js"></script>
     <script src="libraries/addons/p5.sound.min.js"></script>
-    <script src="sketch.js"></script>
+    <script src="javascript/sketch.js"></script>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
-      <link rel="shortcut icon" href="data/icon.png">
+      <link rel="shortcut icon" href="imagens/icon.png">
   </head>
 
   <body>
     <header>
-        <nav class="row">
-            <div class="col-1"></div>
-            <a href="index.html"><div class="col-1">HomePage</div></a>
-            <a href="sobre.html"><div class="col-1">Sobre</div></a>
-            <a href="intervenientes.html"><div class="col-1">Intervenientes</div></a>
-            <a href="locais.html"><div class="col-1">Locais</div></a>
-            <a href="contactos.html"><div class="col-1">Contactos</div></a>
-            <div class="col-6"></div>
-        </nav>
+        <?php include('header.html'); ?>
     </header>
 
     <main class="grid-sobre">
-        <object class="letra-esquerda" data="data/dat.svg"></object>
+        <object class="letra-esquerda" data="imagens/dat.svg"></object>
 
         <div class="row">
             <div class="col-3"></div>
@@ -50,5 +42,10 @@
             <div class="col-3"></div>
         </div>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="javascript/js.js"></script>
   </body>
 </html>
