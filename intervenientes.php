@@ -25,7 +25,7 @@
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/tc.jpg" alt="Thomas Castro" width="400px">
+                    <img src="imagens/tc.jpg" alt="Thomas Castro">
                 </div>
 
                 <div>
@@ -55,7 +55,7 @@
             <div class="col-1"></div>
         </div>
 
-        <div class="row">
+        <div class="row mario-desktop">
             <div class="col-1"></div>
 
             <div class="col-6">
@@ -79,7 +79,7 @@
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/mf.jpeg" alt="Mario Feliciano" width="400px">
+                    <img src="imagens/mf.jpeg" alt="Mario Feliciano">
                 </div>
 
                 <div>
@@ -91,12 +91,48 @@
             <div class="col-1"></div>
         </div>
 
+        <div class="row mario-mobile">
+            <div class="col-1"></div>
+
+            <div class="col-4">
+                <div class="pic">
+                    <img src="imagens/mf.jpeg" alt="Mario Feliciano">
+                </div>
+
+                <div>
+                    <h1 class="nome jockey"> Mario</h1>
+                    <h1 class="apelido jockey">Feliciano</h1>
+                </div>
+            </div>
+
+            <div class="col-6">
+                "Nome pomposo da Palestra"
+
+                Born 1969) studied graphic design at IADE (Lisbon) until 1993. Before finishing his degree he started
+                to work as a graphic designer at Surf Portugal magazine. In 1994 he founded his design studio (Secretonix)
+                that produced a wide range of design projects from editorial to corporate design. After having commissioned
+                one typeface for Adobe (called Strumpf) and after publishing some of his early work in other foundries,
+                in 2001 he creates the Feliciano Type Foundry and starts to publish his own designs and creating custom
+                typefaces for clients around the world.
+
+                He is also a member of AGI (Alliance Graphique Internationale) since 2009. He is the author of several
+                custom typefaces, such as: Expresso (for the Portuguese weekly newspaper Expresso), Sueca (for the Swedish
+                newspaper Svenska Dagbladet), Majerit (for the Spanish newspaper El País) and BesSans for Banco Espírito Santo.
+                His most popular typeface is Flama that is used as a customised version on the Portuguese Passport and Citizen
+                Card along with his other typeface Merlo. In the recent years Mário has been working on expanding FTF's library
+                and giving typographic consultancy.
+
+            </div>
+
+            <div class="col-1"></div>
+        </div>
+
         <div class="row">
             <div class="col-1"></div>
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/lm.jpg" alt="Luna Maurer" width="400px">
+                    <img src="imagens/lm.jpg" alt="Luna Maurer">
                 </div>
 
                 <div>
