@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+            <state relative-caret-position="770">
+              <caret line="217" column="18" lean-forward="true" selection-start-line="217" selection-start-column="18" selection-end-line="217" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+            <state relative-caret-position="418">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -43,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sobre.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
+            <state relative-caret-position="1034">
               <caret line="47" column="206" selection-start-line="47" selection-start-column="206" selection-end-line="47" selection-end-column="206" />
             </state>
           </provider>
@@ -52,17 +52,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intervenientes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
+            <state relative-caret-position="2838">
               <caret line="129" column="206" selection-start-line="129" selection-start-column="206" selection-end-line="129" selection-end-column="206" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locais.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="79" column="83" selection-start-line="79" selection-start-column="83" selection-end-line="79" selection-end-column="83" />
+            <state relative-caret-position="179">
+              <caret line="64" column="44" lean-forward="true" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -70,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contactos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
+            <state relative-caret-position="1430">
               <caret line="65" column="206" selection-start-line="65" selection-start-column="206" selection-end-line="65" selection-end-column="206" />
             </state>
           </provider>
@@ -103,7 +103,6 @@
         <option value="$PROJECT_DIR$/intervenientes.html" />
         <option value="$PROJECT_DIR$/locais.html" />
         <option value="$PROJECT_DIR$/contactos.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -111,6 +110,7 @@
         <option value="$PROJECT_DIR$/intervenientes.php" />
         <option value="$PROJECT_DIR$/contactos.php" />
         <option value="$PROJECT_DIR$/locais.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -182,17 +182,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51854000" />
+    <option name="totallyTimeSpent" value="54903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="PHP-CGI Server" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -204,10 +202,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19441517" />
@@ -262,43 +262,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sobre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
+        <state relative-caret-position="1034">
           <caret line="47" column="206" selection-start-line="47" selection-start-column="206" selection-end-line="47" selection-end-column="206" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contactos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
+        <state relative-caret-position="1430">
           <caret line="65" column="206" selection-start-line="65" selection-start-column="206" selection-end-line="65" selection-end-column="206" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state relative-caret-position="418">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/intervenientes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
+        <state relative-caret-position="2838">
           <caret line="129" column="206" selection-start-line="129" selection-start-column="206" selection-end-line="129" selection-end-column="206" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locais.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="79" column="83" selection-start-line="79" selection-start-column="83" selection-end-line="79" selection-end-column="83" />
+        <state relative-caret-position="179">
+          <caret line="64" column="44" lean-forward="true" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="217" column="18" lean-forward="true" selection-start-line="217" selection-start-column="18" selection-end-line="217" selection-end-column="18" />
         </state>
       </provider>
     </entry>

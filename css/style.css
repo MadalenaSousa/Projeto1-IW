@@ -203,15 +203,18 @@ a {
         width: auto;
         height: 16vw;
         transform: rotate(-90deg);
-        right: 0;
+        transform-origin: top right;
+        bottom: auto;
         top: 0;
+        right: 16vw;
     }
 
     /*Arte*/
     .letra-logo-direita {
         width: 16vw;
-        transform: rotate(90deg);
-        right: 0;
+        transform: rotate(90deg) translateY(100%);
+        transform-origin: bottom right;
+        top: auto;
         bottom: 0;
     }
 
