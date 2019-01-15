@@ -2,7 +2,8 @@ let r, y, b;
 let nTriAll;
 let rand;
 let nav;
-let x = window.matchMedia("(max-width: 600px)");
+let mobile = window.matchMedia("(max-width: 600px)");
+let tablet = window.matchMedia("(min-width: 600px) and (max-width: 1024px)");
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
@@ -33,7 +34,7 @@ function setup() {
 function draw() {
     canvas.position(0,window.scrollY);
 
-    if(x.matches) {
+    if(mobile.matches || tablet.matches) {
         if(rand === 0) {
             triangulosEncolhem();
         } else if(rand === 1){
@@ -59,7 +60,7 @@ function esticar() {
     background(255);
     noFill();
 
-    if(x.matches){
+    if(mobile.matches || tablet.matches){
         strokeWeight(12);
 
         if (r < width/2) {
@@ -113,7 +114,7 @@ function triangulosEncolhem() {
     console.log("entrou triEncolhem");
 
     noFill();
-    if(x.matches) {
+    if(mobile.matches || tablet.matches) {
         strokeWeight(12);
 
         for (let i=0; i<3; i++) {
@@ -155,7 +156,7 @@ function rodar() {
     console.log("entrou rodar");
 
     noFill();
-    if(x.matches){
+    if(mobile.matches || tablet.matches){
         strokeWeight(12);
 
         stroke(255, 0, 0);
