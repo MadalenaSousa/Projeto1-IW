@@ -125,8 +125,16 @@ a {
     text-align: center;
 }
 
+.grid-intervenientes .pic img {
+    width: 400px;
+}
+
 .grid-intervenientes .jockey {
     font-size: 100pt;
+}
+
+.grid-intervenientes .mario-mobile {
+    display: none;
 }
 
 /*LOCAIS*/
@@ -187,36 +195,20 @@ a {
 
 /*CONTACTOS*/
 
+.grid-contactos .pic img {
+    width: 200px;
+}
+
 @media only screen and (max-width: 600px) {
 
-    /*HOMEPAGE*/
+    /*GERAL*/
 
-    /*Design*/
-    .letra-logo-esquerda {
-        width: 16vw;
-        left: 0;
-        bottom: 0;
+    [class*='col-'] {
+        flex-basis: 100%;
+        font-size: 85%;
     }
 
-    /*Tecnologia*/
-    .letra-logo-fundo {
-        width: auto;
-        height: 16vw;
-        transform: rotate(-90deg);
-        transform-origin: top right;
-        bottom: auto;
-        top: 0;
-        right: 16vw;
-    }
-
-    /*Arte*/
-    .letra-logo-direita {
-        width: 16vw;
-        transform: rotate(90deg) translateY(100%);
-        transform-origin: bottom right;
-        top: auto;
-        bottom: 0;
-    }
+    /*NAVEGAÇÃO*/
 
     .navbar-toggler {
         box-shadow: none;
@@ -227,27 +219,133 @@ a {
         width: 8%;
         margin-right: 8px;
     }
+
+    .navbar-nav {
+        transform: translateX(-50%);
+        margin-left: 50%;
+        text-align: center;
+    }
+
+    /*HOMEPAGE*/
+
+    /*Design*/
+    .letra-logo-esquerda {
+        width: 16vw;
+        left: 0;
+        top: 0;
+    }
+
+    /*Tecnologia*/
+    .letra-logo-fundo {
+        width: auto;
+        height: 16vw;
+        transform: rotate(-90deg) translateX(100%);
+        transform-origin: bottom right;
+        bottom: 0;
+        top: auto;
+        right: 0;
+    }
+
+    /*Arte*/
+    .letra-logo-direita {
+        width: 16vw;
+        transform: rotate(90deg);
+        transform-origin: bottom left;
+        top: auto;
+        right: auto;
+        bottom: 16vw;
+        left: 0;
+    }
+
+    .navbar {
+        justify-content: flex-end;
+    }
+
+    /*SOBRE*/
+
+    .letra-esquerda {
+        width: 200px;
+        position: relative;
+        top: auto;
+        margin: 30px 0;
+    }
+
+    .grid-sobre .row {
+        margin: auto;
+    }
+
+    .grid-sobre .col-6 {
+        top: auto;
+    }
+
+    /*INTERVENIENTES*/
+
+    .pic img {
+        width: 80%;
+    }
+
+    .grid-intervenientes .jockey {
+        font-size: 600%;
+    }
+
+    .grid-intervenientes .col-6 {
+        margin-top: 15%;
+    }
+
+    .grid-intervenientes .mario-desktop {
+        display: none;
+    }
+
+    .grid-intervenientes .mario-mobile {
+        display: block;
+    }
+
+    /*LOCAIS*/
+
+    #dei{
+        width: 32vw;
+        height: 16vw;
+    }
+
+    #darq {
+        height: 40vw;
+        width: 16vw;
+    }
+
+    #lab {
+        height: 32vw;
+        width: 16vw;
+    }
+
+    /*CONTACTOS*/
+
+    .grid-contactos .col-6 {
+        margin-top: 10%;
+    }
+
+    .grid-contactos .row {
+        margin: 25% 0;
+    }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
 
-    .letra-logo-esquerda {
-        width: 12vw;
-        left: 0;
-        bottom: 0;
-    }
+    /*GERAL*/
 
-    .letra-logo-fundo {
-        height: 12vw;
-        right: 0;
-        bottom: 0;
-    }
+    /*NAVEGAÇÃO*/
 
-    .letra-logo-direita {
-        width: 12vw;
-        top: 0;
-        right: 0;
-    }
+    /*HOMEPAGE*/
+
+    /*SOBRE*/
+
+    /*INTERVENIENTES*/
+
+    /*LOCAIS*/
+
+    /*CONTACTOS*/
+
+    /*REDES SOCIAIS*/
 
 }
 

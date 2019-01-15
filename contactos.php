@@ -19,12 +19,13 @@
         <?php include('header.html'); ?>
     </header>
 
-    <main class="grid-contacts">
+    <main class="grid-contactos">
         <div class="row">
             <div class="col-1"></div>
+
             <div class="col-2">
                 <div class="pic">
-                    <img src="imagens/nunocoelho.jpg" alt="Nuno Coelho" width="200px">
+                    <img src="imagens/nunocoelho.jpg" alt="Nuno Coelho">
                 </div>
 
                 <div class="pic">
@@ -36,12 +37,13 @@
             <div class="col-6">
                 <div>Professor auxiliar DEI-FCTUC</div>
                 <div>www.nunocoelho.net</div>
-                <a href="https://apps.uc.pt/mypage/faculty/uc26736/pt">Mais Informação</a></div>
+                <a href="https://apps.uc.pt/mypage/faculty/uc26736/pt">Mais Informação</a>
             </div>
         </div>
 
         <div class="row">
             <div class="col-1"></div>
+
             <div class="col-2">
                 <div class="pic">
                     <img src="imagens/pedromartins.jpg" alt="Pedro Martins" width="200px">
