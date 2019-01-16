@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-6 aux">
                 <div>Professor auxiliar DEI-FCTUC</div>
                 <div>www.nunocoelho.net</div>
                 <a href="https://apps.uc.pt/mypage/faculty/uc26736/pt">Mais Informação</a></div>
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-6 aux">
                 <div>Professor auxiliar DEI-FCTUC</div>
                 <div>pjmm@dei.uc.pt</div>
                 <a href="https://apps.uc.pt/mypage/faculty/uc26736/pt">Mais Informação</a>

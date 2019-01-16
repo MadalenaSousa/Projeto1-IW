@@ -33,7 +33,7 @@
                     <h1 class="apelido jockey">Castro</h1>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 info">
                 "Nome pomposo da Palestra"
 
                 Thomas Castro founded LUST  with Jeroen Barendse, and Dimitri Nieuwenhuizen, a multidisciplinary graphic
@@ -58,7 +58,18 @@
         <div class="row">
             <div class="col-1"></div>
 
-            <div class="col-6">
+            <div class="col-4">
+                <div class="pic">
+                    <img src="imagens/mf.jpeg" alt="Mario Feliciano" width="400px">
+                </div>
+
+                <div>
+                    <h1 class="nome jockey"> Mario</h1>
+                    <h1 class="apelido jockey">Feliciano</h1>
+                </div>
+            </div>
+
+            <div class="col-6 info">
                 "Nome pomposo da Palestra"
 
                 Born 1969) studied graphic design at IADE (Lisbon) until 1993. Before finishing his degree he started
@@ -77,16 +88,6 @@
 
             </div>
 
-            <div class="col-4">
-                <div class="pic">
-                    <img src="imagens/mf.jpeg" alt="Mario Feliciano" width="400px">
-                </div>
-
-                <div>
-                    <h1 class="nome jockey"> Mario</h1>
-                    <h1 class="apelido jockey">Feliciano</h1>
-                </div>
-            </div>
 
             <div class="col-1"></div>
         </div>
@@ -105,7 +106,7 @@
                 </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-6 info">
                 "Nome pomposo da Palestra"
 
                 Luna runs the Amsterdam-based design studio Moniker with Roel Wouters. (They founded it in 2012 with

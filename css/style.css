@@ -246,5 +246,41 @@ a {
         right: 0;
     }
 
+    /*INTERVENIENTES*/
+    .nome {
+        position: absolute;
+        left: 20%;
+    }
+
+    .apelido {
+        position: absolute;
+        left: 60%;
+    }
+    .pic {
+        position:relative;
+        text-align: center;
+        left:25%;
+    }
+    .info{
+        top:50px;
+        left:25%;
+    }
+
+    /*CONTACTOS*/
+    .pic .nome{
+        top:-250px;
+        left:-30px;
+    }
+
+    .aux{
+        left:10%;
+    }
+
+    /*NAVEGAÇÃO*/
+
+    .navbar-nav {
+        font-size: 18pt;
+    }
+
 }
 
