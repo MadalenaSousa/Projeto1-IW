@@ -332,32 +332,63 @@ a {
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
 
     /*GERAL*/
+
     [class*='col-'] {
         flex-basis: 100%;
+        font-size: 85%;
     }
 
     /*NAVEGAÇÃO*/
+
+    .navbar-toggler {
+        box-shadow: none;
+        border: 0;
+    }
+
+    .nav-item img {
+        width: 100%;
+        margin-right: 8px;
+    }
+
     .navbar-nav {
-        font-size: 18pt;
+        transform: translateX(-50%);
+        margin-left: 50%;
+        text-align: center;
     }
 
     /*HOMEPAGE*/
+
+    /*Design*/
     .letra-logo-esquerda {
-        width: 70pt;
+        width: 12vw;
         left: 0;
-        bottom: 250px;
+        top: 0;
     }
 
+    /*Tecnologia*/
     .letra-logo-fundo {
-        height: 70pt;
-        right: 0;
+        width: auto;
+        height: 12vw;
+        transform: rotate(-90deg) translateX(100%);
+        transform-origin: bottom right;
         bottom: 0;
+        top: auto;
+        right: 0;
     }
 
+    /*Arte*/
     .letra-logo-direita {
-        width: 70pt;
-        top: 100px;
-        right: 0;
+        width: 12vw;
+        transform: rotate(90deg);
+        transform-origin: bottom left;
+        top: auto;
+        right: auto;
+        bottom: 12vw;
+        left: 0;
+    }
+
+    .navbar {
+        justify-content: flex-end;
     }
 
 
@@ -365,11 +396,11 @@ a {
     .letra-esquerda {
         position: relative;
         top: auto;
-        margin: 30px 0;
+        margin: 5% 0;
     }
 
     .grid-sobre .row {
-        margin: auto 50px;
+        margin: auto 15%;
     }
 
     .grid-sobre .col-6 {
@@ -378,16 +409,16 @@ a {
 
     /*INTERVENIENTES*/
     .grid-intervenientes .jockey {
-        font-size: 80pt;
+        font-size: 800%;
     }
 
     .grid-intervenientes .col-6 {
-        margin-top: 50px;
+        margin-top: 10%;
 
     }
     .grid-intervenientes .row {
-        margin-right: 50px;
-        margin-left: 50px;
+        margin-right: 12%;
+        margin-left: 12%;
     }
 
     .nome{
@@ -418,7 +449,7 @@ a {
     }
 
     .grid-contactos .col-6 {
-        margin-top: 30px;
+        margin-top: 10%;
     }
 
     .grid-contactos .row {
