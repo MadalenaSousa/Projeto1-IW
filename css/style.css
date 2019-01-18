@@ -36,7 +36,7 @@ a {
 }
 
 [class*='grid-'] .row {
-    margin-top: 7%;
+    margin-top: 15%;
     margin-bottom: 15%;
     margin-right: 0;
     margin-left: 0;
@@ -354,6 +354,17 @@ a {
         transform: translateX(-50%);
         margin-left: 50%;
         text-align: center;
+        font-size: 165%;
+    }
+
+    .redesSociais img {
+        width: 20%;
+    }
+
+    .redesSociais {
+        margin-left:35%;
+        margin-right: 35%;
+        padding: 0 5%;
     }
 
     /*HOMEPAGE*/
