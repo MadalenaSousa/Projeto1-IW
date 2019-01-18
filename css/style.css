@@ -15,7 +15,7 @@ a {
 
 .jockey {
     font-family: 'Jockey One', sans-serif;
-    font-size: 48pt;
+    font-size: 350%;
 }
 
 .roboto {
@@ -24,7 +24,7 @@ a {
 
 [class*='col-'] {
     text-align: left;
-    font-size: 14pt;
+    font-size: 120%;
     font-family: "Roboto Mono", monospace;
     display: inline-block;
     position: relative;
@@ -36,8 +36,8 @@ a {
 }
 
 [class*='grid-'] .row {
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 7%;
+    margin-bottom: 15%;
     margin-right: 0;
     margin-left: 0;
 }
@@ -53,9 +53,9 @@ a {
 /*TÍTULOS*/
 
 .letra-esquerda {
-    width: 300px;
+    width: 20%;
     left: 0;
-    top: 100pt
+    top: 25%;
 }
 
 /*HOMEPAGE*/
@@ -96,8 +96,8 @@ a {
 
 .navbar-nav {
     font-family: 'Jockey One', sans-serif;
-    font-size: 20pt;
-    margin-left: 50px;
+    font-size: 165%;
+    margin-left: 5%;
     color: black;
 }
 
@@ -126,11 +126,11 @@ a {
 }
 
 .grid-intervenientes .pic img {
-    width: 400px;
+    width: 95%;
 }
 
 .grid-intervenientes .jockey {
-    font-size: 100pt;
+    font-size: 700%;
 }
 
 .grid-intervenientes .mario-mobile {
@@ -141,28 +141,28 @@ a {
 
 #dei{
     background-color: transparent;
-    width: 300pt;
-    height: 120pt;
+    width: 15%;
+    height: 20%;
     border: 0;
     box-shadow: none;
 }
 
 #darq, #lab{
     background-color: transparent;
-    height: 300pt;
-    width: 120pt;
+    height: 40%;
+    width: 10%;
     border: 0;
     box-shadow: none;
 }
 
 .modal-title {
     font-family: "Jockey One", sans-serif;
-    font-size: 36pt;
+    font-size: 300%;
 }
 
 .modal-body img {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
 
 .modal-content {
@@ -196,7 +196,7 @@ a {
 /*CONTACTOS*/
 
 .grid-contactos .pic img {
-    width: 200px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
