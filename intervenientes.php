@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-6">
-                "Nome pomposo da Palestra"
+                <h4>"Nome pomposo da Palestra"</h4>
 
                 Thomas Castro founded LUST  with Jeroen Barendse, and Dimitri Nieuwenhuizen, a multidisciplinary graphic
                 design practice established in 1996 by , based in The Hague, Netherlands. LUST is deeply interested in
@@ -59,7 +59,7 @@
             <div class="col-1"></div>
 
             <div class="col-6">
-                "Nome pomposo da Palestra"
+                <h4>"Nome pomposo da Palestra"</h4>
 
                 Born 1969) studied graphic design at IADE (Lisbon) until 1993. Before finishing his degree he started
                 to work as a graphic designer at Surf Portugal magazine. In 1994 he founded his design studio (Secretonix)
@@ -106,7 +106,7 @@
             </div>
 
             <div class="col-6">
-                "Nome pomposo da Palestra"
+                <h4>"Nome pomposo da Palestra"</h4>
 
                 Born 1969) studied graphic design at IADE (Lisbon) until 1993. Before finishing his degree he started
                 to work as a graphic designer at Surf Portugal magazine. In 1994 he founded his design studio (Secretonix)
@@ -142,8 +142,7 @@
             </div>
 
             <div class="col-6">
-                "Nome pomposo da Palestra"
-
+                <h3>"Nome pomposo da Palestra"</h3>
                 Luna runs the Amsterdam-based design studio Moniker with Roel Wouters. (They founded it in 2012 with
                 Jonathan Puckey.) Moniker “explores the characteristics of technology, how people use it, and how it
                 influences people’s daily lives. "They’ve taught media courses at the Gerrit Rietveld Academy, the Sandberg
