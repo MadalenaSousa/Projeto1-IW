@@ -20,12 +20,12 @@
     </header>
 
     <main class="grid-sobre">
-        <object class="letra-esquerda" data="imagens/dat.svg"></object>
+        <object id="DAT" data="imagens/dat.svg"></object>
 
         <div class="row">
-            <div class="col-3"></div>
+            <div class="col"></div>
 
-            <div class="col-6">
+            <div class="col-7">
                 Um ciclo de conferências, conversas e workshops. Que se vai realizar anualmente no âmbito dos cursos de
                 Licenciatura e Mestrado em Design e Multimédia da Faculdade de Ciências e de Tecnologia da Universidade de Coimbra.
 
@@ -39,7 +39,7 @@
                 Arte computacional, Cinema, etc.)
             </div>
 
-            <div class="col-3"></div>
+            <div class="col"></div>
         </div>
     </main>
 

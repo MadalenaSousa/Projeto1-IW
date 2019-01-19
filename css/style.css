@@ -25,16 +25,18 @@ a {
     text-align: left;
     font-size: 14pt;
     font-family: "Roboto Mono", monospace;
+
     display: inline-block;
+
     position: relative;
+
     max-width: 100%;
 }
 
-[class*='grid-'] .row {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    margin-right: 0;
+.row {
     margin-left: 0;
+    margin-right: 0;
+    margin-top: 8vh;
 }
 
 .redesSociais img {
@@ -45,16 +47,13 @@ a {
     display: none;
 }
 
-/*HOMEPAGE*/
-
-[class*='logo-'] {
-    display: inline-block;
-    position: absolute;
-    padding: 0;
-    margin: 0;
+.pic {
+    text-align: center;
 }
 
-[class*='letra-'] {
+/*HOMEPAGE*/
+
+[class*='letra-logo-'] {
     display: inline-block;
     position: absolute;
     padding: 0;
@@ -84,38 +83,21 @@ a {
 .navbar-nav {
     font-family: 'Jockey One', sans-serif;
     font-size: 165%;
+
     margin-left: 5%;
+
     color: black;
 }
 
 /*SOBRE*/
 
-.letra-esquerda {
+#DAT {
+    margin-top: 10vh;
     width: 16vw;
     left: 0;
 }
 
-.grid-sobre .col-6 {
-    top: 100px;
-}
-
 /*INTERVENIENTES*/
-
-.nome {
-    position: absolute;
-    top: -0.8em;
-    left: 0;
-}
-
-.apelido {
-    position: absolute;
-    bottom:-0.5em;
-    right: 0;
-}
-
-.pic {
-    text-align: center;
-}
 
 .grid-intervenientes .pic img {
     width: 20vw;
@@ -195,7 +177,6 @@ a {
 
     [class*='col-'] {
         flex-basis: 100%;
-        font-size: 85%;
     }
 
     /*NAVEGAÇÃO*/
@@ -206,7 +187,7 @@ a {
     }
 
     .nav-item img {
-        width: 8%;
+        width: 10%;
         margin-right: 8px;
     }
 
@@ -253,24 +234,16 @@ a {
 
     /*SOBRE*/
 
-    .letra-esquerda {
+    #DAT {
         width: 200px;
         position: relative;
         top: auto;
         margin: 30px 0;
     }
 
-    .grid-sobre .row {
-        margin: auto;
-    }
-
-    .grid-sobre .col-6 {
-        top: auto;
-    }
-
     /*INTERVENIENTES*/
 
-    .grid-intervenientes h1, .grid-intervenientes h2 {
+    h1, h2 {
         margin: 3vw 0;
     }
 
@@ -278,17 +251,13 @@ a {
         font-size: 14vw;
     }
 
-    .grid-intervenientes h2 {
+    h2 {
         font-size: 6vw;
     }
 
-    .grid-intervenientes .row {
+    .row {
         margin-right: 2vw;
         margin-left: 2vw;
-    }
-
-    .grid-intervenientes .pic {
-        text-align: center;
     }
 
     .grid-intervenientes .pic img, .grid-contactos .pic img {
@@ -319,25 +288,20 @@ a {
         height: 32vw;
         width: 16vw;
     }
-
-    /*CONTACTOS*/
-
-    .grid-contactos .col-6 {
-        margin-top: 10%;
-    }
-
-    .grid-contactos .row {
-        margin: 25% 0;
-    }
-
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
 
     /*GERAL*/
 
     [class*='col-'] {
         flex-basis: 100%;
+    }
+
+    .row {
+        margin-top: 0;
+        margin-left: 3vw;
+        margin-right: 3vw;
     }
 
     /*NAVEGAÇÃO*/
@@ -406,29 +370,16 @@ a {
 
 
     /*SOBRE*/
-    .letra-esquerda {
+    #DAT {
         width: 30vw;
         position: relative;
         top: auto;
         margin: 5% 0;
     }
 
-    .grid-sobre .row {
-        margin: auto 15%;
-    }
-
-    .grid-sobre .col-6 {
-        top: auto;
-    }
-
     /*INTERVENIENTES*/
     .grid-intervenientes h1, .grid-intervenientes h2 {
         margin: 3vw 0;
-    }
-
-    .grid-intervenientes .row {
-        margin-right: 10vw;
-        margin-left: 10vw;
     }
 
     .grid-intervenientes .pic {
@@ -447,8 +398,6 @@ a {
         display: block;
     }
 
-    /*LOCAIS*/
-
     /*CONTACTOS*/
 
     .grid-contactos .pic img {
@@ -457,17 +406,8 @@ a {
 
     .grid-contactos .pic {
         text-align: left;
+        margin-top: 3vh;
     }
-
-    .grid-contactos .col-6 {
-        margin-top: 10%;
-    }
-
-    .grid-contactos .row {
-        margin: 15% 30% ;
-    }
-
-    /*REDES SOCIAIS*/
 
 }
 

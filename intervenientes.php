@@ -25,7 +25,7 @@
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/tc.jpg" alt="Thomas Castro">
+                    <img src="imagens/thomascastro.jpg" alt="Thomas Castro">
                 </div>
             </div>
             <div class="col-6">
@@ -76,7 +76,7 @@
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/mf.jpeg" alt="Mario Feliciano">
+                    <img src="imagens/mariofeliciano.jpg" alt="Mario Feliciano">
                 </div>
             </div>
 
@@ -88,7 +88,7 @@
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/mf.jpeg" alt="Mario Feliciano">
+                    <img src="imagens/mariofeliciano.jpg" alt="Mario Feliciano">
                 </div>
             </div>
 
@@ -120,7 +120,7 @@
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/lm.jpg" alt="Luna Maurer">
+                    <img src="imagens/lunamaurer.jpg" alt="Luna Maurer">
                 </div>
             </div>
 
