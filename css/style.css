@@ -21,7 +21,7 @@ a {
     font-family: "Roboto Mono", monospace;
 }
 
-[class*='col-'] {
+[class*='col'] {
     text-align: left;
     font-size: 14pt;
     font-family: "Roboto Mono", monospace;
@@ -175,7 +175,7 @@ a {
 
     /*GERAL*/
 
-    [class*='col-'] {
+    [class*='col'] {
         flex-basis: 100%;
     }
 
@@ -294,7 +294,7 @@ a {
 
     /*GERAL*/
 
-    [class*='col-'] {
+    [class*='col'] {
         flex-basis: 100%;
     }
 

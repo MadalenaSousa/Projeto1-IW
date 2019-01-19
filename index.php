@@ -3,16 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design|Arte|Tecnologia</title>
-    <style> body {padding: 0; margin: 0;} </style>
+    <title>Design Arte Tecnologia</title>
     <script src="libraries/p5.min.js"></script>
     <script src="libraries/addons/p5.dom.min.js"></script>
     <script src="libraries/addons/p5.sound.min.js"></script>
       <script src="javascript/sketch.js"></script>
+      <script src="libraries/addons/p5.dom.js"></script>
+
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
+
       <link rel="shortcut icon" href="imagens/icon.png">
-      <script src="libraries/addons/p5.dom.js"></script>
+
       <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   </head>
