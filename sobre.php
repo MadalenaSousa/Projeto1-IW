@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design|Arte|Tecnologia</title>
-    <style> body {padding: 0; margin: 0;} </style>
+    <title>Design Arte Tecnologia</title>
     <script src="libraries/p5.min.js"></script>
     <script src="libraries/addons/p5.dom.min.js"></script>
     <script src="libraries/addons/p5.sound.min.js"></script>
     <script src="javascript/sketch.js"></script>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="shortcut icon" href="imagens/icon.png">
-  </head>
+    <script src="libraries/addons/p5.dom.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="imagens/icon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
 
   <body>
     <header>
@@ -20,12 +25,12 @@
     </header>
 
     <main class="grid-sobre">
-        <object class="letra-esquerda" data="imagens/dat.svg"></object>
+        <object id="DAT" data="imagens/dat.svg"></object>
 
         <div class="row">
-            <div class="col-3"></div>
+            <div class="col"></div>
 
-            <div class="col-6">
+            <div class="col-7">
                 Um ciclo de conferências, conversas e workshops. Que se vai realizar anualmente no âmbito dos cursos de
                 Licenciatura e Mestrado em Design e Multimédia da Faculdade de Ciências e de Tecnologia da Universidade de Coimbra.
 
@@ -39,7 +44,7 @@
                 Arte computacional, Cinema, etc.)
             </div>
 
-            <div class="col-3"></div>
+            <div class="col"></div>
         </div>
     </main>
 

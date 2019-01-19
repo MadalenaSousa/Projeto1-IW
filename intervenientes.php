@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design|Arte|Tecnologia</title>
-    <style> body {padding: 0; margin: 0;} </style>
+    <title>Design Arte Tecnologia</title>
     <script src="libraries/p5.min.js"></script>
     <script src="libraries/addons/p5.dom.min.js"></script>
     <script src="libraries/addons/p5.sound.min.js"></script>
     <script src="javascript/sketch.js"></script>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="shortcut icon" href="imagens/icon.png">
-  </head>
+    <script src="libraries/addons/p5.dom.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="imagens/icon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
 
   <body>
     <header>
@@ -21,20 +26,16 @@
 
     <main class="grid-intervenientes">
         <div class="row">
-            <div class="col-1"></div>
+            <div class="col"></div>
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/tc.jpg" alt="Thomas Castro">
-                </div>
-
-                <div>
-                    <h1 class="nome jockey">Thomas</h1>
-                    <h1 class="apelido jockey">Castro</h1>
+                    <img src="imagens/thomascastro.jpg" alt="Thomas Castro">
                 </div>
             </div>
             <div class="col-6">
-                <h2>"Nome pomposo da Palestra"</h2>
+                <h1 class="jockey">Thomas Castro</h1>
+                <h2>"Tecnologia ao Nosso Serviço"</h2>
                 <div>
                     Thomas Castro founded LUST  with Jeroen Barendse, and Dimitri Nieuwenhuizen, a multidisciplinary graphic
                     design practice established in 1996 by , based in The Hague, Netherlands. LUST is deeply interested in
@@ -52,14 +53,15 @@
                 </div>
             </div>
 
-            <div class="col-1"></div>
+            <div class="col"></div>
         </div>
 
         <div class="row mario-desktop">
-            <div class="col-1"></div>
+            <div class="col"></div>
 
             <div class="col-6">
-                <h2>"Nome pomposo da Palestra"</h2>
+                <h1 class="jockey">Mario Feliciano</h1>
+                <h2>"Workshop de Tipografia"</h2>
                 <div>
                     Born 1969) studied graphic design at IADE (Lisbon) until 1993. Before finishing his degree he started
                     to work as a graphic designer at Surf Portugal magazine. In 1994 he founded his design studio (Secretonix)
@@ -79,35 +81,25 @@
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/mf.jpeg" alt="Mario Feliciano">
-                </div>
-
-                <div>
-                    <h1 class="nome jockey"> Mario</h1>
-                    <h1 class="apelido jockey">Feliciano</h1>
+                    <img src="imagens/mariofeliciano.jpg" alt="Mario Feliciano">
                 </div>
             </div>
 
-            <div class="col-1"></div>
+            <div class="col"></div>
         </div>
 
         <div class="row mario-mobile">
-            <div class="col-1"></div>
+            <div class="col"></div>
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/mf.jpeg" alt="Mario Feliciano">
-                </div>
-
-                <div>
-                    <h1 class="nome jockey"> Mario</h1>
-                    <h1 class="apelido jockey">Feliciano</h1>
+                    <img src="imagens/mariofeliciano.jpg" alt="Mario Feliciano">
                 </div>
             </div>
 
             <div class="col-6">
                 <h1 class="jockey">Mario Feliciano</h1>
-                <h2>"Nome pomposo da Palestra"</h2>
+                <h2>"Workshop de Tipografia"</h2>
                 <div>
                     Born 1969) studied graphic design at IADE (Lisbon) until 1993. Before finishing his degree he started
                     to work as a graphic designer at Surf Portugal magazine. In 1994 he founded his design studio (Secretonix)
@@ -125,25 +117,21 @@
                 </div>
             </div>
 
-            <div class="col-1"></div>
+            <div class="col"></div>
         </div>
 
         <div class="row">
-            <div class="col-1"></div>
+            <div class="col"></div>
 
             <div class="col-4">
                 <div class="pic">
-                    <img src="imagens/lm.jpg" alt="Luna Maurer">
-                </div>
-
-                <div>
-                    <h1 class="nome jockey">Luna</h1>
-                    <h1 class="apelido jockey">Maurer</h1>
+                    <img src="imagens/lunamaurer.jpg" alt="Luna Maurer">
                 </div>
             </div>
 
             <div class="col-6">
-                <h3>"Nome pomposo da Palestra"</h3>
+                <h1 class="jockey">Luna Maurer</h1>
+                <h2>"Design de Interação"</h2>
                 Luna runs the Amsterdam-based design studio Moniker with Roel Wouters. (They founded it in 2012 with
                 Jonathan Puckey.) Moniker “explores the characteristics of technology, how people use it, and how it
                 influences people’s daily lives. "They’ve taught media courses at the Gerrit Rietveld Academy, the Sandberg
@@ -157,7 +145,7 @@
                 manifesto, and the difference (or lack thereof) between an artist and a designer.
             </div>
 
-            <div class="col-1"></div>
+            <div class="col"></div>
         </div>
     </main>
 

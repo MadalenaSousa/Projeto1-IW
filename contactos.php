@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design|Arte|Tecnologia</title>
-    <style> body {padding: 0; margin: 0;} </style>
+    <title>Design Arte Tecnologia</title>
     <script src="libraries/p5.min.js"></script>
     <script src="libraries/addons/p5.dom.min.js"></script>
     <script src="libraries/addons/p5.sound.min.js"></script>
     <script src="javascript/sketch.js"></script>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="shortcut icon" href="imagens/icon.png">
-  </head>
+    <script src="libraries/addons/p5.dom.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="imagens/icon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
 
   <body>
     <header>
@@ -35,6 +40,8 @@
                 <div>www.nunocoelho.net</div>
                 <a href="https://apps.uc.pt/mypage/faculty/uc26736/pt">Mais Informação</a>
             </div>
+
+            <div class="col"></div>
         </div>
 
         <div class="row">
@@ -42,7 +49,7 @@
 
             <div class="col-2">
                 <div class="pic">
-                    <img src="imagens/pedromartins.jpg" alt="Pedro Martins" width="200px">
+                    <img src="imagens/pedromartins.jpg" alt="Pedro Martins">
                 </div>
             </div>
 
@@ -52,6 +59,8 @@
                 <div>pjmm@dei.uc.pt</div>
                 <a href="https://apps.uc.pt/mypage/faculty/uc26736/pt">Mais Informação</a>
             </div>
+
+            <div class="col"></div>
         </div>
     </main>
 
