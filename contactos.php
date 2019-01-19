@@ -27,14 +27,10 @@
                 <div class="pic">
                     <img src="imagens/nunocoelho.jpg" alt="Nuno Coelho">
                 </div>
-
-                <div class="pic">
-                    <h1 class="nome jockey">Nuno</h1>
-                    <h1 class="apelido jockey">Coelho</h1>
-                </div>
             </div>
 
             <div class="col-6">
+                <h1 class="jockey">Nuno Coelho</h1>
                 <div>Professor auxiliar DEI-FCTUC</div>
                 <div>www.nunocoelho.net</div>
                 <a href="https://apps.uc.pt/mypage/faculty/uc26736/pt">Mais Informação</a>
@@ -48,14 +44,10 @@
                 <div class="pic">
                     <img src="imagens/pedromartins.jpg" alt="Pedro Martins" width="200px">
                 </div>
-
-                <div class="pic">
-                    <h1 class="nome jockey">Pedro</h1>
-                    <h1 class="apelido jockey">Martins</h1>
-                </div>
             </div>
 
             <div class="col-6">
+                <h1 class="jockey">Pedro Martins</h1>
                 <div>Professor auxiliar DEI-FCTUC</div>
                 <div>pjmm@dei.uc.pt</div>
                 <a href="https://apps.uc.pt/mypage/faculty/uc26736/pt">Mais Informação</a>

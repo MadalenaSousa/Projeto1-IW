@@ -29,12 +29,12 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalCenterTitleDarq">Departamento de Arquitetura</h5>
+                        <h5 class="modal-title jockey" id="exampleModalCenterTitleDarq">Departamento de Arquitetura</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body roboto">
                         <img src="imagens/darq.jpg" alt="DARQ">
                         <div>
                             Universidade de Coimbra<br>
@@ -57,12 +57,12 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalCenterTitleDei">Departamento de Engenharia Informática</h5>
+                        <h5 class="modal-title jockey" id="exampleModalCenterTitleDei">Departamento de Engenharia Informática</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body roboto">
                         <img src="imagens/dei.jpg" alt="DEI">
                         <div>
                             Universidade de Coimbra, Pólo II<br>
@@ -85,12 +85,12 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalCenterTitleLab">Laboratório Chimico</h5>
+                        <h5 class="modal-title jockey" id="exampleModalCenterTitleLab">Laboratório Chimico</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body roboto">
                         <img src="imagens/chimico.jpg" alt="LAB. CHIMICO">
                         <div>
                             Museu da Ciência, 3000-272 Coimbra<br>
