@@ -85,6 +85,10 @@ a {
     color: black;
 }
 
+nav a {
+    transition: color 0.3s;
+}
+
 /*SOBRE*/
 
 #DAT {
@@ -109,6 +113,14 @@ a {
 
 .grid-intervenientes .mario-mobile {
     display: none;
+}
+
+.infoOrador {
+    display: none;
+}
+
+.show {
+    display: inherit;
 }
 
 /*LOCAIS*/
@@ -148,6 +160,8 @@ a {
     color: white;
     box-shadow: none;
     border: 0;
+
+    transition: background-color 0.3s;
 }
 
 .btn a:hover {

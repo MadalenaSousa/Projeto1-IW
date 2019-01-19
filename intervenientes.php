@@ -39,7 +39,9 @@
                 <h2>Tecnologia ao Nosso Serviço</h2>
                 <h2>11 de Março</h2>
                 <h2>Departamento de Engenharia Informática</h2>
-                <h5>Mais Informação</h5>
+                <div class="btn">
+                    Mais Informação
+                </div>
             </div>
 
             <div class="col"></div>
@@ -47,7 +49,7 @@
 
         <div class="row">
             <div class="col"></div>
-            <div class="col-10">
+            <div class="col-10 infoOrador">
                 Thomas Castro founded LUST  with Jeroen Barendse, and Dimitri Nieuwenhuizen, a multidisciplinary graphic
                 design practice established in 1996 by , based in The Hague, Netherlands. LUST is deeply interested in
                 exploring new pathways for design at the cutting edge where new media and information technologies,
@@ -79,7 +81,9 @@
                 <h2>Workshop de Tipografia</h2>
                 <h2>12 de Março</h2>
                 <h2>Departamento de Arquitetura</h2>
-                <h5>Mais Informação</h5>
+                <div class="btn">
+                    Mais Informação
+                </div>
             </div>
 
             <div class="col"></div>
@@ -87,7 +91,7 @@
 
         <div class="row">
             <div class="col"></div>
-            <div class="col-10">
+            <div class="col-10 infoOrador">
                 Born 1969) studied graphic design at IADE (Lisbon) until 1993. Before finishing his degree he started
                 to work as a graphic designer at Surf Portugal magazine. In 1994 he founded his design studio (Secretonix)
                 that produced a wide range of design projects from editorial to corporate design. After having commissioned
@@ -119,7 +123,9 @@
                 <h2>Design de Interação</h2>
                 <h2>13 de Março</h2>
                 <h2>Laboratório Chimico</h2>
-                <h5>Mais Informação</h5>
+                <div class="btn">
+                    Mais Informação
+                </div>
             </div>
 
             <div class="col"></div>
@@ -127,7 +133,7 @@
 
         <div class="row">
             <div class="col"></div>
-            <div class="col-10">
+            <div class="col-10 infoOrador">
                 Luna runs the Amsterdam-based design studio Moniker with Roel Wouters. (They founded it in 2012 with
                 Jonathan Puckey.) Moniker “explores the characteristics of technology, how people use it, and how it
                 influences people’s daily lives. "They’ve taught media courses at the Gerrit Rietveld Academy, the Sandberg
@@ -147,5 +153,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="javascript/intervenientes.js"></script>
   </body>
 </html>
