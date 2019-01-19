@@ -47,10 +47,6 @@ a {
     display: none;
 }
 
-.pic {
-    text-align: center;
-}
-
 /*HOMEPAGE*/
 
 [class*='letra-logo-'] {
@@ -89,6 +85,10 @@ a {
     color: black;
 }
 
+nav a {
+    transition: color 0.3s;
+}
+
 /*SOBRE*/
 
 #DAT {
@@ -103,12 +103,24 @@ a {
     width: 20vw;
 }
 
+.grid-intervenientes h2 {
+    margin: 1vw 0;
+}
+
 .grid-intervenientes .jockey {
     font-size: 6vw;
 }
 
 .grid-intervenientes .mario-mobile {
     display: none;
+}
+
+.infoOrador {
+    display: none;
+}
+
+.show {
+    display: inherit;
 }
 
 /*LOCAIS*/
@@ -148,6 +160,8 @@ a {
     color: white;
     box-shadow: none;
     border: 0;
+
+    transition: background-color 0.3s;
 }
 
 .btn a:hover {
@@ -172,12 +186,6 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-
-    /*GERAL*/
-
-    [class*='col'] {
-        flex-basis: 100%;
-    }
 
     /*NAVEGAÇÃO*/
 
@@ -293,10 +301,6 @@ a {
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
 
     /*GERAL*/
-
-    [class*='col'] {
-        flex-basis: 100%;
-    }
 
     .row {
         margin-top: 0;
