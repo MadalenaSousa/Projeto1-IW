@@ -27,6 +27,7 @@ a {
     font-family: "Roboto Mono", monospace;
     display: inline-block;
     position: relative;
+    max-width: 100%;
 }
 
 [class*='grid-'] .row {
@@ -269,16 +270,29 @@ a {
 
     /*INTERVENIENTES*/
 
-    .pic img {
-        width: 80%;
+    .grid-intervenientes h1, .grid-intervenientes h2 {
+        margin: 3vw 0;
     }
 
-    .grid-intervenientes .jockey {
-        font-size: 600%;
+    .grid-intervenientes .jockey{
+        font-size: 14vw;
     }
 
-    .grid-intervenientes .col-6 {
-        margin-top: 15%;
+    .grid-intervenientes h2 {
+        font-size: 6vw;
+    }
+
+    .grid-intervenientes .row {
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+
+    .grid-intervenientes .pic {
+        text-align: center;
+    }
+
+    .grid-intervenientes .pic img, .grid-contactos .pic img {
+        width: 80vw;
     }
 
     .grid-intervenientes .mario-desktop {
@@ -324,7 +338,6 @@ a {
 
     [class*='col-'] {
         flex-basis: 100%;
-        font-size: 85%;
     }
 
     /*NAVEGAÇÃO*/
@@ -394,6 +407,7 @@ a {
 
     /*SOBRE*/
     .letra-esquerda {
+        width: 30vw;
         position: relative;
         top: auto;
         margin: 5% 0;
@@ -408,25 +422,21 @@ a {
     }
 
     /*INTERVENIENTES*/
-    .grid-intervenientes .jockey {
-        font-size: 800%;
+    .grid-intervenientes h1, .grid-intervenientes h2 {
+        margin: 3vw 0;
     }
 
-    .grid-intervenientes .col-6 {
-        margin-top: 10%;
-
-    }
     .grid-intervenientes .row {
-        margin-right: 12%;
-        margin-left: 12%;
+        margin-right: 10vw;
+        margin-left: 10vw;
     }
 
-    .nome{
-        left: 20%;
+    .grid-intervenientes .pic {
+        text-align: left;
     }
 
-    .apelido{
-        right:20%;
+    .grid-intervenientes .pic img {
+        width: 40vw;
     }
 
     .grid-intervenientes .mario-desktop {
@@ -440,12 +450,13 @@ a {
     /*LOCAIS*/
 
     /*CONTACTOS*/
-    .grid-contactos .nome{
-        left:35%;
+
+    .grid-contactos .pic img {
+        width: 30vw;
     }
 
-    .grid-contactos .apelido{
-        right:35%;
+    .grid-contactos .pic {
+        text-align: left;
     }
 
     .grid-contactos .col-6 {

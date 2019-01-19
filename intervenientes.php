@@ -27,14 +27,10 @@
                 <div class="pic">
                     <img src="imagens/tc.jpg" alt="Thomas Castro">
                 </div>
-
-                <div>
-                    <h1 class="nome jockey">Thomas</h1>
-                    <h1 class="apelido jockey">Castro</h1>
-                </div>
             </div>
             <div class="col-6">
-                <h2>"Nome pomposo da Palestra"</h2>
+                <h1 class="jockey">Thomas Castro</h1>
+                <h2>"Tecnologia ao Nosso Serviço"</h2>
                 <div>
                     Thomas Castro founded LUST  with Jeroen Barendse, and Dimitri Nieuwenhuizen, a multidisciplinary graphic
                     design practice established in 1996 by , based in The Hague, Netherlands. LUST is deeply interested in
@@ -59,7 +55,8 @@
             <div class="col-1"></div>
 
             <div class="col-6">
-                <h2>"Nome pomposo da Palestra"</h2>
+                <h1 class="jockey">Mario Feliciano</h1>
+                <h2>"Workshop de Tipografia"</h2>
                 <div>
                     Born 1969) studied graphic design at IADE (Lisbon) until 1993. Before finishing his degree he started
                     to work as a graphic designer at Surf Portugal magazine. In 1994 he founded his design studio (Secretonix)
@@ -81,11 +78,6 @@
                 <div class="pic">
                     <img src="imagens/mf.jpeg" alt="Mario Feliciano">
                 </div>
-
-                <div>
-                    <h1 class="nome jockey"> Mario</h1>
-                    <h1 class="apelido jockey">Feliciano</h1>
-                </div>
             </div>
 
             <div class="col-1"></div>
@@ -98,16 +90,11 @@
                 <div class="pic">
                     <img src="imagens/mf.jpeg" alt="Mario Feliciano">
                 </div>
-
-                <div>
-                    <h1 class="nome jockey"> Mario</h1>
-                    <h1 class="apelido jockey">Feliciano</h1>
-                </div>
             </div>
 
             <div class="col-6">
                 <h1 class="jockey">Mario Feliciano</h1>
-                <h2>"Nome pomposo da Palestra"</h2>
+                <h2>"Workshop de Tipografia"</h2>
                 <div>
                     Born 1969) studied graphic design at IADE (Lisbon) until 1993. Before finishing his degree he started
                     to work as a graphic designer at Surf Portugal magazine. In 1994 he founded his design studio (Secretonix)
@@ -135,15 +122,11 @@
                 <div class="pic">
                     <img src="imagens/lm.jpg" alt="Luna Maurer">
                 </div>
-
-                <div>
-                    <h1 class="nome jockey">Luna</h1>
-                    <h1 class="apelido jockey">Maurer</h1>
-                </div>
             </div>
 
             <div class="col-6">
-                <h3>"Nome pomposo da Palestra"</h3>
+                <h1 class="jockey">Luna Maurer</h1>
+                <h2>"Design de Interação"</h2>
                 Luna runs the Amsterdam-based design studio Moniker with Roel Wouters. (They founded it in 2012 with
                 Jonathan Puckey.) Moniker “explores the characteristics of technology, how people use it, and how it
                 influences people’s daily lives. "They’ve taught media courses at the Gerrit Rietveld Academy, the Sandberg
