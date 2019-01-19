@@ -47,10 +47,6 @@ a {
     display: none;
 }
 
-.pic {
-    text-align: center;
-}
-
 /*HOMEPAGE*/
 
 [class*='letra-logo-'] {
@@ -101,6 +97,10 @@ a {
 
 .grid-intervenientes .pic img {
     width: 20vw;
+}
+
+.grid-intervenientes h2 {
+    margin: 1vw 0;
 }
 
 .grid-intervenientes .jockey {
@@ -172,12 +172,6 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-
-    /*GERAL*/
-
-    [class*='col'] {
-        flex-basis: 100%;
-    }
 
     /*NAVEGAÇÃO*/
 
@@ -293,10 +287,6 @@ a {
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
 
     /*GERAL*/
-
-    [class*='col'] {
-        flex-basis: 100%;
-    }
 
     .row {
         margin-top: 0;
