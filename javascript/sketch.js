@@ -7,6 +7,7 @@ let mobile = window.matchMedia("(max-width: 600px)");
 let tablet = window.matchMedia("(min-width: 600px) and (max-width: 1024px)");
 let coresTri;
 let lastTime;
+let cores = ["red", "blue", "yellow"];
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
@@ -35,8 +36,14 @@ function setup() {
     rand = randomInt(0,3);
 
     for(let i=0; i<nav.length; i++) {
-        nav[i].addEventListener("mouseleave", reverseAnimation);
-        nav[i].addEventListener("mouseover", normalAnimation);
+        nav[i].addEventListener("mouseleave", function () {
+            reverseAnimation();
+            nav[i].style.color = "black"
+        });
+        nav[i].addEventListener("mouseover", function () {
+            normalAnimation();
+            nav[i].style.color = cores[randomInt(0,3)];
+        });
     }
 
     randomTriCores();
@@ -234,6 +241,7 @@ function mudarCor() {
 
 function normalAnimation() {
     over = true;
+
 }
 
 function reverseAnimation(){
