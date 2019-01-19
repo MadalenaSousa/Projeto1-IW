@@ -27,14 +27,10 @@
                 <div class="pic">
                     <img src="imagens/nunocoelho.jpg" alt="Nuno Coelho">
                 </div>
-
-                <div class="pic">
-                    <h1 class="nome jockey">Nuno</h1>
-                    <h1 class="apelido jockey">Coelho</h1>
-                </div>
             </div>
 
             <div class="col-6">
+                <h1 class="jockey">Nuno Coelho</h1>
                 <div>Professor auxiliar DEI-FCTUC</div>
                 <div>www.nunocoelho.net</div>
                 <a href="https://apps.uc.pt/mypage/faculty/uc26736/pt">Mais Informação</a>
@@ -48,14 +44,10 @@
                 <div class="pic">
                     <img src="imagens/pedromartins.jpg" alt="Pedro Martins" width="200px">
                 </div>
-
-                <div class="pic">
-                    <h1 class="nome jockey">Pedro</h1>
-                    <h1 class="apelido jockey">Martins</h1>
-                </div>
             </div>
 
             <div class="col-6">
+                <h1 class="jockey">Pedro Martins</h1>
                 <div>Professor auxiliar DEI-FCTUC</div>
                 <div>pjmm@dei.uc.pt</div>
                 <a href="https://apps.uc.pt/mypage/faculty/uc26736/pt">Mais Informação</a>
@@ -66,6 +58,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="javascript/js.js"></script>
   </body>
 </html>

@@ -1,12 +1,22 @@
 let r, y, b;
-let nTriAll;
+let nTriAll, nTriInc;
 let rand;
+let over;
 let nav;
 let mobile = window.matchMedia("(max-width: 600px)");
 let tablet = window.matchMedia("(min-width: 600px) and (max-width: 1024px)");
+let coresTri;
+let lastTime;
+let cores = ["red", "blue", "yellow"];
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
+}
+
+function randomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
 }
 
 function setup() {
@@ -20,44 +30,44 @@ function setup() {
     y = 700;
     b = 200;
 
-    nTriAll = 0;
+    nTriAll = 1;
+    nTriInc = 1;
 
-    function random(min, max) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        return Math.floor(Math.random() * (max - min)) + min;
+    rand = randomInt(0,3);
+
+    for(let i=0; i<nav.length; i++) {
+        nav[i].addEventListener("mouseleave", function () {
+            reverseAnimation();
+            nav[i].style.color = "black"
+        });
+        nav[i].addEventListener("mouseover", function () {
+            normalAnimation();
+            nav[i].style.color = cores[randomInt(0,3)];
+        });
     }
 
-    rand = random(0,3);
+    randomTriCores();
+
+    lastTime = -1000;
 }
 
 function draw() {
     canvas.position(0,window.scrollY);
 
-    if(mobile.matches || tablet.matches) {
-        if(rand === 0) {
-            triangulosEncolhem();
-        } else if(rand === 1){
-            esticar();
-        } else if(rand === 2){
-            rodar();
-        }
-    } else {
-        for(let i=0; i<nav.length; i++) {
-            if(rand === 0) {
-                nav[i].addEventListener("mousemove", triangulosEncolhem);
-            } else if(rand === 1){
-                nav[i].addEventListener("mousemove", esticar);
-            } else if(rand === 2){
-                nav[i].addEventListener("mouseenter", rodar);
-            }
-        }
+    background(255);
+
+    if(rand === 0) {
+        triangulosEncolhem();
+    } else if(rand === 1){
+        esticar();
+    } else if(rand === 2){
+        mudarCor();
     }
 }
 
 function esticar() {
-    console.log("entrou Esticar");
-    background(255);
+    //console.log("entrou Esticar");
+
     noFill();
 
     if(mobile.matches || tablet.matches){
@@ -86,18 +96,31 @@ function esticar() {
     } else {
         strokeWeight(18);
 
-        if (r < 350) {
-            r = r + 5;
-        }
+        if(over) {
+            if (r < 350) {
+                r = r + 5;
+            }
 
-        if (b < 900) {
-            b = b + 5;
-        }
+            if (b < 900) {
+                b = b + 5;
+            }
 
-        if (y > 200) {
-            y = y - 5;
-        }
+            if (y > 200) {
+                y = y - 5;
+            }
+        } else {
+            if (r > 50) {
+                r = r - 5;
+            }
 
+            if (b > 200) {
+                b = b - 5;
+            }
+
+            if (y < 700) {
+                y = y + 5;
+            }
+        }
 
         stroke(255, 0, 0);
         triangle(0, 0, 0, 700, r, 350);
@@ -111,7 +134,7 @@ function esticar() {
 }
 
 function triangulosEncolhem() {
-    console.log("entrou triEncolhem");
+    //console.log("entrou triEncolhem");
 
     noFill();
     if(mobile.matches || tablet.matches) {
@@ -133,12 +156,24 @@ function triangulosEncolhem() {
     } else {
         strokeWeight(18);
 
-        if (nTriAll < 5) {
-            nTriAll++;
-        }
+        if(wait(100)) {
+            if(over) {
+                if (nTriAll < 4) {
+                    nTriInc = 1;
+                } else {
+                    nTriInc = 0;
+                }
+            } else {
+                if (nTriAll > 1) {
+                    nTriInc = -1;
+                } else {
+                    nTriInc = 0;
+                }
+            }
 
-        if (nTriAll > 0) {
-            nTriAll--;
+            nTriAll += nTriInc;
+
+            lastTime = Date.now();
         }
 
         for (let i=0; i<nTriAll; i++) {
@@ -152,8 +187,8 @@ function triangulosEncolhem() {
     }
 }
 
-function rodar() {
-    console.log("entrou rodar");
+function mudarCor() {
+    //console.log("entrou mudarCor");
 
     noFill();
     if(mobile.matches || tablet.matches){
@@ -170,14 +205,64 @@ function rodar() {
     } else {
         strokeWeight(18);
 
-        stroke(255, 0, 0);
+        if(over && wait(250)) {
+            randomTriCores();
+            lastTime = Date.now();
+        }
+
+        if (coresTri[0] === 0) {
+            stroke(255, 0, 0);
+        } else if (coresTri[0] === 1) {
+            stroke(0, 0, 255);
+        } else {
+            stroke(255, 255, 0);
+        }
         triangle(0, 0, 0, 700, 500, 350);
 
-        stroke(0, 0, 255);
-        triangle(width/4, height, width/2, 300, (width/4)*3, height);
+        if (coresTri[1] === 0) {
+            stroke(255, 0, 0);
+        } else if (coresTri[1] === 1) {
+            stroke(0, 0, 255);
+        } else {
+            stroke(255, 255, 0);
+        }
+        triangle(width / 4, height, width / 2, 300, (width / 4) * 3, height);
 
-        stroke(255, 255, 0);
-        triangle(width/2, 0, width, 0, width, 500);
+        if (coresTri[2] === 0) {
+            stroke(255, 0, 0);
+        } else if (coresTri[2] === 1) {
+            stroke(0, 0, 255);
+        } else {
+            stroke(255, 255, 0);
+        }
+        triangle(width / 2, 0, width, 0, width, 500);
+    }
+}
+
+function normalAnimation() {
+    over = true;
+
+}
+
+function reverseAnimation(){
+    over = false;
+}
+
+function wait(ms) {
+    return Date.now() - lastTime > ms;
+}
+
+function randomTriCores() {
+    coresTri = [-1, -1, -1];
+
+    for (let i = 0; i < 3; i++) {
+        coresTri[i] = randomInt(0, 3);
+        for (let j = 0; j < 3; j++) {
+            if (i !== j && coresTri[i] === coresTri[j]) {
+                i = i - 1;
+                break;
+            }
+        }
     }
 }
 
