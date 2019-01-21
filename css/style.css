@@ -99,6 +99,10 @@ nav a {
 
 /*INTERVENIENTES*/
 
+.grid-intervenientes .row, .grid-contactos .row {
+    margin-top: 5%;
+}
+
 .grid-intervenientes .pic img {
     width: 20vw;
 }
@@ -120,7 +124,7 @@ nav a {
 }
 
 .show {
-    display: inherit;
+    display: block;
 }
 
 /*LOCAIS*/
@@ -154,27 +158,34 @@ nav a {
     border-radius: 0;
 }
 
-.btn {
+.bot {
     border-radius: 0;
     background-color: black;
     color: white;
     box-shadow: none;
     border: 0;
 
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 80%;
+    font-family: "Roboto Mono", monospace;
+
+    cursor: pointer;
+
     transition: background-color 0.3s;
 }
 
-.btn a:hover {
+.bot a:hover {
     text-decoration: none;
     color: black;
 }
 
-.btn:hover {
+.bot:hover {
     background-color: yellow;
     color: black;
 }
 
-.btn:active {
+.bot:active {
     border: 0;
     box-shadow: none;
 }
@@ -185,13 +196,22 @@ nav a {
     width: 10vw;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+
+    [class*='col'] {
+        flex-basis: 100%;
+    }
 
     /*NAVEGAÇÃO*/
 
     .navbar-toggler {
         box-shadow: none;
         border: 0;
+        text-align: right;
+    }
+
+    button:focus {
+        outline: none;
     }
 
     .nav-item img {
@@ -298,9 +318,17 @@ nav a {
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
 
     /*GERAL*/
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    [class*='col'] {
+
+    }
 
     .row {
         margin-top: 0;
@@ -381,7 +409,7 @@ nav a {
     }
 
     /*INTERVENIENTES*/
-    .grid-intervenientes h1, .grid-intervenientes h2 {
+    .grid-intervenientes h2 {
         margin: 3vw 0;
     }
 
@@ -409,7 +437,6 @@ nav a {
 
     .grid-contactos .pic {
         text-align: left;
-        margin-top: 3vh;
     }
 
 }
