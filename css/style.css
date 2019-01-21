@@ -13,6 +13,26 @@ a {
     text-decoration: none;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+
 .jockey {
     font-family: 'Jockey One', sans-serif;
 }
@@ -34,9 +54,7 @@ a {
 }
 
 .row {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 8vh;
+   margin: 5% 0;
 }
 
 .redesSociais img {
@@ -110,10 +128,6 @@ nav a {
 }
 
 /*INTERVENIENTES*/
-
-.grid-intervenientes .row, .grid-contactos .row {
-    margin-top: 5%;
-}
 
 .grid-intervenientes .pic img {
     width: 20vw;
