@@ -24,7 +24,7 @@ function setup() {
     canvas.position(0, 0);
     canvas.style('z-index', '-5');
 
-    nav = document.querySelectorAll("nav a");
+    nav = document.querySelectorAll(".nav-link");
 
     r = 50;
     y = 700;

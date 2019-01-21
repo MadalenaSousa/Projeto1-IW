@@ -81,12 +81,24 @@ a {
     font-size: 165%;
 
     margin-left: 5%;
+}
 
-    color: black;
+.dropdown-menu {
+    padding: 0;
+    margin-top: 0;
 }
 
 nav a {
+    margin-bottom: 3px;
     transition: color 0.3s;
+}
+
+.redesSociais a svg g {
+    fill: white;
+}
+
+.redesSociais a:hover svg g {
+    fill: black;
 }
 
 /*SOBRE*/
@@ -355,14 +367,8 @@ nav a {
         font-size: 165%;
     }
 
-    .redesSociais img {
-        width: 20%;
-    }
-
     .redesSociais {
-        margin-left:35%;
-        margin-right: 35%;
-        padding: 0 5%;
+        margin: 0 auto;
     }
 
     /*HOMEPAGE*/

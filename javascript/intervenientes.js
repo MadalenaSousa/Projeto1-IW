@@ -1,4 +1,5 @@
 let infoOrador = document.querySelectorAll(".infoOrador");
+let moreInfo = document.querySelectorAll(".moreInfo");
 
 function dropdown(menu) {
     let conteudo = menu;
@@ -8,6 +9,6 @@ function dropdown(menu) {
     };
 }
 
-for(let i=0; i<botoes.length; i++) {
-    botoes[i].addEventListener("click", dropdown(infoOrador[i]));
+for(let i=0; i<moreInfo.length; i++) {
+    moreInfo[i].addEventListener("click", dropdown(infoOrador[i]));
 }
