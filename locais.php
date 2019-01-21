@@ -47,8 +47,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                        <button type="button" class="btn btn-primary"><a href="https://www.google.com/maps/place/Departamento+de+Arquitectura/@40.209508,-8.4254727,17z/data=!3m1!4b1!4m5!3m4!1s0xd22f90bdb46aa95:0xb005070b2bc33a21!8m2!3d40.209508!4d-8.423284" target="_blank">Direções</a></button>
+                        <button type="button" class="bot btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="bot btn btn-primary"><a href="https://www.google.com/maps/place/Departamento+de+Arquitectura/@40.209508,-8.4254727,17z/data=!3m1!4b1!4m5!3m4!1s0xd22f90bdb46aa95:0xb005070b2bc33a21!8m2!3d40.209508!4d-8.423284" target="_blank">Direções</a></button>
                     </div>
                 </div>
             </div>
@@ -75,8 +75,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                        <button type="button" class="btn btn-primary"><a href="https://www.google.com/maps/place/DEI+-+Departamento+de+Engenharia+Inform%C3%A1tica+-+FCTUC/@40.1863787,-8.4182919,17z/data=!3m1!4b1!4m5!3m4!1s0xd22f9952aaf6517:0xd3822ec1d359eb52!8m2!3d40.1863787!4d-8.4161032" target="_blank">Direções</a></button>
+                        <button type="button" class="bot btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="bot btn btn-primary"><a href="https://www.google.com/maps/place/DEI+-+Departamento+de+Engenharia+Inform%C3%A1tica+-+FCTUC/@40.1863787,-8.4182919,17z/data=!3m1!4b1!4m5!3m4!1s0xd22f9952aaf6517:0xd3822ec1d359eb52!8m2!3d40.1863787!4d-8.4161032" target="_blank">Direções</a></button>
                     </div>
                 </div>
             </div>
@@ -104,8 +104,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                        <button type="button" class="btn btn-primary"><a href="https://www.google.com/maps/place/Laborat%C3%B3rio+Ch%C3%ADmico,+3000-272+Coimbra/@40.2100646,-8.4257537,17z/data=!3m1!4b1!4m5!3m4!1s0xd22f90be401315b:0x9643f5a09bd091b1!8m2!3d40.2100646!4d-8.423565" target="_blank">Direções</a></button>
+                        <button type="button" class="bot btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="bot btn btn-primary"><a href="https://www.google.com/maps/place/Laborat%C3%B3rio+Ch%C3%ADmico,+3000-272+Coimbra/@40.2100646,-8.4257537,17z/data=!3m1!4b1!4m5!3m4!1s0xd22f90be401315b:0x9643f5a09bd091b1!8m2!3d40.2100646!4d-8.423565" target="_blank">Direções</a></button>
                     </div>
                 </div>
             </div>
@@ -115,6 +115,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="javascript/locais.js"></script>
+    <script src="javascript/botoes.js"></script>
   </body>
 </html>

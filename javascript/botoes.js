@@ -1,4 +1,4 @@
-let botoes = document.querySelectorAll(".modal-footer .btn");
+let botoes = document.querySelectorAll(".bot");
 
 for(let i=0; i<botoes.length; i++){
     botoes[i].addEventListener("mouseenter", function () {
