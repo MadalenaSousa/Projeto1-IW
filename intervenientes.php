@@ -18,6 +18,10 @@
     <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700" rel="stylesheet">
+
+    <style>
+
+    </style>
 </head>
 
   <body>
@@ -39,7 +43,7 @@
                 <h2>Tecnologia ao Nosso Serviço</h2>
                 <h2>11 de Março</h2>
                 <h2>Departamento de Engenharia Informática</h2>
-                <div class="bot">
+                <div class="bot moreInfo">
                     Mais Informação
                 </div>
             </div>
@@ -81,7 +85,7 @@
                 <h2>Workshop de Tipografia</h2>
                 <h2>12 de Março</h2>
                 <h2>Departamento de Arquitetura</h2>
-                <div class="bot">
+                <div class="bot moreInfo">
                     Mais Informação
                 </div>
             </div>
@@ -123,7 +127,7 @@
                 <h2>Design de Interação</h2>
                 <h2>13 de Março</h2>
                 <h2>Laboratório Chimico</h2>
-                <div class="bot">
+                <div class="bot moreInfo">
                     Mais Informação
                 </div>
             </div>

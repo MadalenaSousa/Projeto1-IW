@@ -13,6 +13,26 @@ a {
     text-decoration: none;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+
 .jockey {
     font-family: 'Jockey One', sans-serif;
 }
@@ -34,17 +54,7 @@ a {
 }
 
 .row {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 8vh;
-}
-
-.redesSociais img {
-    width: 20%;
-}
-
-.dropdown-toggle::after {
-    display: none;
+   margin: 5% 0;
 }
 
 /*HOMEPAGE*/
@@ -76,17 +86,38 @@ a {
 
 /*NAVEGAÇÃO*/
 
+.redesSociais img {
+    width: 20%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
 .navbar-nav {
     font-family: 'Jockey One', sans-serif;
     font-size: 165%;
 
     margin-left: 5%;
-
-    color: black;
 }
 
-nav a {
+.redesSociais {
+    padding: 0;
+    margin-top: 0;
+}
+
+.redesSociais a {
+    margin-bottom: 3px;
     transition: color 0.3s;
+}
+
+.redesSociais a svg g {
+    fill: white;
+    transition: fill 0.3s;
+}
+
+.redesSociais a:hover svg g {
+    fill: black;
 }
 
 /*SOBRE*/
@@ -98,10 +129,6 @@ nav a {
 }
 
 /*INTERVENIENTES*/
-
-.grid-intervenientes .row, .grid-contactos .row {
-    margin-top: 5%;
-}
 
 .grid-intervenientes .pic img {
     width: 20vw;
@@ -120,11 +147,17 @@ nav a {
 }
 
 .infoOrador {
-    display: none;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s linear;
 }
 
 .show {
     display: block;
+}
+
+.grid-intervenientes .show {
+    height: 400px;
 }
 
 /*LOCAIS*/
@@ -300,6 +333,10 @@ nav a {
         display: block;
     }
 
+    .grid-intervenientes .show {
+        height: 1500px;
+    }
+
     /*LOCAIS*/
 
     #dei{
@@ -355,14 +392,9 @@ nav a {
         font-size: 165%;
     }
 
-    .redesSociais img {
-        width: 20%;
-    }
-
     .redesSociais {
-        margin-left:35%;
-        margin-right: 35%;
-        padding: 0 5%;
+        margin: 0 auto;
+        width: 50%;
     }
 
     /*HOMEPAGE*/
@@ -427,6 +459,10 @@ nav a {
 
     .grid-intervenientes .mario-mobile {
         display: block;
+    }
+
+    .grid-intervenientes .show {
+        height: 600px;
     }
 
     /*CONTACTOS*/
