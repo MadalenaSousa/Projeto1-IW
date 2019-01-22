@@ -57,14 +57,6 @@ body {
    margin: 5% 0;
 }
 
-.redesSociais img {
-    width: 20%;
-}
-
-.dropdown-toggle::after {
-    display: none;
-}
-
 /*HOMEPAGE*/
 
 [class*='letra-logo-'] {
@@ -94,6 +86,14 @@ body {
 
 /*NAVEGAÇÃO*/
 
+.redesSociais img {
+    width: 20%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
 .navbar-nav {
     font-family: 'Jockey One', sans-serif;
     font-size: 165%;
@@ -101,18 +101,19 @@ body {
     margin-left: 5%;
 }
 
-.dropdown-menu {
+.redesSociais {
     padding: 0;
     margin-top: 0;
 }
 
-nav a {
+.redesSociais a {
     margin-bottom: 3px;
     transition: color 0.3s;
 }
 
 .redesSociais a svg g {
     fill: white;
+    transition: fill 0.3s;
 }
 
 .redesSociais a:hover svg g {
@@ -146,11 +147,17 @@ nav a {
 }
 
 .infoOrador {
-    display: none;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s linear;
 }
 
 .show {
     display: block;
+}
+
+.grid-intervenientes .show {
+    height: 400px;
 }
 
 /*LOCAIS*/
@@ -326,6 +333,10 @@ nav a {
         display: block;
     }
 
+    .grid-intervenientes .show {
+        height: 1500px;
+    }
+
     /*LOCAIS*/
 
     #dei{
@@ -448,6 +459,10 @@ nav a {
 
     .grid-intervenientes .mario-mobile {
         display: block;
+    }
+
+    .grid-intervenientes .show {
+        height: 600px;
     }
 
     /*CONTACTOS*/
